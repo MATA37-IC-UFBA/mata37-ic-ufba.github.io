@@ -25,7 +25,6 @@ template: inverse
 - A linguagem evoluiu ao longo do tempo; a versão mais recente é o **Python 3**, que possui diferenças em relação à versão anterior (descontinuada)
 
 
-
 - Python possui uma comunidade grande que contribui para a sua evolução.
    - [Página Oficial da Comunidade Python](https://www.python.org/).
 
@@ -40,6 +39,25 @@ template: inverse
   - sistemas embarcados (ver Raspberry Pi)
   - chat bots
   - jogos (ver pygame)
+
+---
+# Python
+
+
+## Redes sociais e plataformas
+
+- **Instagram**: Instagram é construído principalmente com Python.
+- **Facebook**: Serviços internos, ferramentas de infraestrutura e scripts de automação no Facebook são escritos em Python.
+- **YouTube**: Alguns serviços e sistemas internos do YouTube usam Python, especialmente para processamento e análise de dados.
+
+---
+# Python
+
+## Serviços de streaming e armazenamento
+
+- **Spotify**: o Spotify usa Python sistemas de machine learning (recomendações de músicas, playlists personalizadas etc.)
+- **Netflix**: várias ferramentas internas de automação, monitoramento e análise de dados da Netflix são implementadas em Python.
+- **Dropbox**: o serviço de armazenamento em nuvem Dropbox é alimentado principalmente por Python, tanto no servidor quanto no cliente de desktop.
 
 ---
 
