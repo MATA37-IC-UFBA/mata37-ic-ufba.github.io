@@ -46,7 +46,6 @@ Reunir pessoas para:
 
 - Renomear arquivos de foto para ficar no padrão ano-mês-dia
 - Internet das coisas; automação residencial
-- Jornalismo de dados
 - Carros autônomos
 
 ---
@@ -61,8 +60,11 @@ Reunir pessoas para:
 # Metodologia
 
 - Uso da linguagem de programação Python
-- Exercícios com correção automática
+- Uso da plataforma JUDE
+   - Exercícios com correção automática
 - Aulas práticas e teóricas
+- Listas de exercícios
+- Provas
 
 ---
 
