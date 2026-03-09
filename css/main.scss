@@ -1,0 +1,210 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// Import partials from the `minima` theme.
+@import "minima";
+
+/** Icons */
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #828282; }
+
+
+///////////////////////////
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 800;
+}
+.page-content h1 { font-size: 42px; }
+.page-content h2 { font-size: 40px; }
+.page-content h3 { font-size: 32px; }
+
+.page-content h2 {
+  margin-top: 20px; 
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+
+blockquote {
+  font-size: $base-font-size;
+  background: #F0F0F0;
+  font-style: normal !important;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid;
+  color: $text-color;
+}
+
+$cell-padding:  6px;
+$border-color:  darkgray;
+
+table th { background-color: lightgray; padding: $cell-padding; border: 2px solid darkgray; }
+table td { background-color: white; padding: $cell-padding; border: 2px solid darkgray; }
+table { border: 3px solid darkgray; border-collapse: collapse; }
+
+div.CodeMirror span.CodeMirror-matchingbracket {
+  color: blue !important;
+  text-decoration: underline;
+}
+
+.testcases {
+  display: none;
+}
+.runtemplate {
+  display: none;
+}
+.mypy {
+  display: none;
+}
+
+/////////////
+
+fieldset {
+  margin-bottom: 1.5em;
+}
+
+.CodeMirror {
+  border: 1px solid darkgray;
+  // resize: vertical;
+  height: auto;
+  font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace !important;
+  font-size: 18px !important;
+}
+
+.CodeMirror-scroll {
+  max-height: 25em;
+}
+
+.stdout, .stdin {
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+}
+
+// .python.stdout, .python.stdin {
+//   display: none;
+//   height: 8em;
+//   width: 100%;
+// }
+
+button.go {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button.clicker {
+  width: 30%;
+  height: 3.5em;
+  margin-bottom: 0.5em;
+  appearance: none;
+  background-color:  rgba(27, 31, 35, .15);
+  border: 1px solid rgba(27, 31, 35, .40);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/////////////
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 240px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.page-title {
+  bottom: 17px;
+  position: absolute;
+  margin-left: 8px;
+  color: #777;
+}

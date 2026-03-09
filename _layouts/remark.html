@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Bebas+Neue:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+      /* body { font-family: 'Droid Serif'; } */
+      body { font-family: 'Open Sans'; color:#475142; font-size: 20px}
+
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-slides-area table th { background-color: lightgray; padding: 7px; border: 2px solid darkgray; }
+      .remark-slides-area table td { background-color: white; padding: 7px; border: 2px solid darkgray; }
+      .remark-slides-area table { border: 3px solid darkgray; border-collapse: collapse; }
+
+      .remark-inline-code {
+        color: darkcyan;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 30%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 65%;
+        float: right;
+        padding-top: 1em;
+      }
+
+      .left-50 {
+        color: #777;
+        width: 49%;
+        height: 92%;
+        float: left;
+      }
+        .left-50 h2:last-of-type, .left-50 h3:last-child {
+          color: #000;
+        }
+      .right-50 {
+        width: 49%;
+        float: right;
+        padding-top: 1em;
+      }
+
+
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+      .exercise {
+        background: #ceeaff;
+      }
+
+      .line-numbers{
+        /* Set "line-numbers-counter" to 0 */
+        counter-reset: line-numbers-counter;
+      }
+
+      .line-numbers .remark-code-line::before {
+        /* Increment "line-numbers-counter" by 1 */
+        counter-increment: line-numbers-counter;
+        content: counter(line-numbers-counter);
+        text-align: right;
+        width: 35px;
+        border-right: 1px solid #aaa;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 0 5px;
+      }
+
+      strong {
+        color: #bf2a19
+      }
+
+      blockquote {
+        margin-left: 0;
+        padding-left: 1em;
+        border-left: 5px solid #f5d018;
+        font-size: 22px;
+      }
+    </style>
+
+    <script type="text/javascript" src="{{site.baseurl}}/lib/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ "/css/misc.css" | prepend: site.baseurl }}">
+    <script type="text/javascript" src="{{site.baseurl}}/js/misc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/lib/plantuml/plantuml-encoder.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/lib/plantuml/plantuml-replacer.js"></script>
+  
+    <body>
+    
+    {% include head-items-mata56.html %}
+    
+  </head>
+    <textarea id="source">
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+name: exercise
+layout: true
+class: exercise
+---
+name: normal
+layout: true
+class: none
+---
+template: normal
+{{ content }}
+    </textarea>
+    <script src="{{site.baseurl}}/lib/remark/remark.min.js"></script>
+    <script>
+      remark.macros.width = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+      remark.macros.height = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="height: ' + percentage + '" />';
+      };
+      var slideshow = remark.create({highlightLines: true});
+    </script>
+
+    {% include footer-items-mata56.html %}
+  </body>
+</html>
