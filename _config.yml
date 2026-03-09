@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Capacitação (IC-UFBA)
+title: Ensino (IC-UFBA)
 email: christina.flach@gmail.com
-baseurl: "/tomorrow-ppm1" # the subpath of your site, e.g. /blog
+# baseurl: "/mata37" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
