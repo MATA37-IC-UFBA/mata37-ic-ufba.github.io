@@ -20,6 +20,17 @@ template: inverse
 
 ## Algoritmo
 
+- vá para uma posição central no papel
+- coloque a caneta sobre o papel
+- risque 2cm
+- gire 90 graus
+- risque 2cm
+- gire 90 graus
+- risque 2cm
+- gire 90 graus
+- risque 2cm
+- gire 90 graus
+
 
 ---
 
@@ -41,6 +52,14 @@ template: inverse
 <img src="./figs/scratch1.png" width="40%">
 
 ---
+
+# Desenhar Quadrado (3)
+
+<img src="./figs/scratch-cat.png" width="40%">
+
+
+---
+
 
 # Desenhar Quadrado com Turtle (1)
 
