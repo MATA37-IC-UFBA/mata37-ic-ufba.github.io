@@ -55,7 +55,7 @@ template: inverse
 
 # Desenhar Quadrado (3)
 
-<img src="./figs/scratch-cat.png" width="40%">
+<img src="./figs/scratch-cat.png" width="80%">
 
 
 ---
