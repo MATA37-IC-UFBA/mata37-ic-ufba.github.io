@@ -6,10 +6,16 @@ title: Introdução à Programação em Python
 Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para este curso:
 [Programação em Python](https://rodrigorgs.github.io/aulas/ilp/)
 
-### Slides
+- [Apresentação](0-apresentacao)
+
+## Correção automática
+
+- A plataforma JUDE
+- [Padrões de entrada e saída](01d-entrada-saida-correcao)
+
+## Slides
 
 - [Motivação](https://docs.google.com/presentation/d/1L70pAPrIstAOukWUIAEPKGXnzVXo46hV4m6BVAWkdnY/edit)
-- [Apresentação](0-apresentacao)
 - [Introdução à programação](00a-intro-programacao)
    - [Exemplo](0-scratch-python)
 - [Introdução à linguagem Python](00b-intro-python)
@@ -39,10 +45,6 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
 - [Condicionais (if/else)](ex-if)
 - [Repetição (for/while)](ex-for-while)
 - [Listas](ex-listas)
-
-### Correção automática
-
-- [Padrões de entrada e saída](01d-entrada-saida-correcao)
 
 <!--
 - [Listas](ex-listas)

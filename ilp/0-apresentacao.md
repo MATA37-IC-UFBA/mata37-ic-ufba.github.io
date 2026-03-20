@@ -15,7 +15,7 @@ template: inverse
 # Apresentação do curso
 
 ---
-# Objetivos
+## Objetivos
 
 Reunir pessoas para:
 
@@ -24,25 +24,16 @@ Reunir pessoas para:
 
 ---
 
-# Por que aprender a programar?
+## Por que aprender a programar?
 
 - Automatizar tarefas
 - Gerenciar informação
-- Para participar ativamente da Sociedade da Informação
+- Para participar ativamente da Sociedade da Informação.
 
 > Porque é divertido.
 ---
 
-# Pra que aprender a programar?
-
-
-- Se existe um programa pronto, eu posso usá-lo
-- Se existe um programa parecido, talvez eu possa modificá-lo
-- Se não existe, posso criá-lo (programá-lo)
-
----
-
-# Automatizar tarefas
+## Automatizar tarefas
 
 - Renomear arquivos de foto para ficar no padrão ano-mês-dia
 - Internet das coisas; automação residencial
@@ -50,21 +41,47 @@ Reunir pessoas para:
 
 ---
 
-# Gerenciar informação
+## Gerenciar informação
 
 - Sistemas de informação em geral (gerenciador de eventos, lojas virtuais etc.)
 - Aplicativos móveis
 
+--- 
+
+## Pra que aprender a programar?
+
+- Se existe um programa pronto, eu posso usá-lo
+- Se existe um programa parecido, talvez eu possa modificá-lo
+- Se não existe, posso criá-lo (programá-lo).
+
 ---
 
-# Metodologia
+## Ementa
+
+Introdução aos princípios de programação, como: 
+desenvolvimento de algoritmos, refinamento sucessivo, noções de especificação e correção de algoritmos. 
+Construção de programas aplicando conceitos de linguagens de programação: 
+variáveis, constantes, operadores aritméticos e expressões, estruturas de controle 
+(atribuição, sequência, seleção, repetição, recursão). 
+Parâmetros e princípios de programação estruturada e modular. 
+Documentação de programas. Teste de programas. Análise de resultados.
+
+## Metodologia
 
 - Uso da linguagem de programação Python
 - Uso da plataforma JUDE
    - Exercícios com correção automática
 - Aulas práticas e teóricas
+
+## Avaliação
+
 - Listas de exercícios
-- Provas
+- Três Provas
+- Frequência às aulas
+
+## Código de conduta
+
+
 
 ---
 
