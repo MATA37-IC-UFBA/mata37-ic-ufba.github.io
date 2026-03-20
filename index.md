@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Cursos
+title: Disciplinas
 date:   2026-03-09 15:35:00 -0300
 features: []
 ---
 
-- [Introdução à Lógica Programação (ILP) com Python](slides)
-
-
+- [MATA37 - Introdução à Lógica Programação (ILP) com Python](slides)
 

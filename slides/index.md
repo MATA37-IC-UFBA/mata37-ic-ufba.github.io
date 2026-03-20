@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introdução à Programação em Python
+title: Introdução à Lógica de Programação em Python
 ---
 
 Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para este curso:
