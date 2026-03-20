@@ -1,2 +1,0 @@
-
-.footnote[Introdução à Programação com Python<br><br>Instituto de Computação<br>Universidade Federal da Bahia]

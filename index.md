@@ -8,7 +8,7 @@ features: []
 Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para este curso:
 [Programação em Python](https://rodrigorgs.github.io/aulas/ilp/)
 
-- [Introdução à Programação com Python](ilp)
+- [Introdução à Lógica Programação (ILP) com Python](slides)
 
 
 
