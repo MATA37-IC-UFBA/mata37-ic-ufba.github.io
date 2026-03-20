@@ -10,7 +10,7 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
 
 ## Correção automática
 
-- [Plataformas de edição e programação](01e-plataformas)E
+- [Plataformas de edição e programação](01e-plataformas)
 - [Padrões de entrada e saída](01d-entrada-saida-correcao)
 
 ## Slides
