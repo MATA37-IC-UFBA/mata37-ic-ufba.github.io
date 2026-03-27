@@ -1,12 +1,12 @@
 ---
 layout: remark
-title: Entrada e saída em Python
+title: Entrada e Saída em Python
 ---
 
 {::nomarkdown}
 template: inverse
 
-# Entrada e saída de dados
+# Entrada e Saída de Dados
 
 {% include_relative footer.txt %}
 
@@ -14,8 +14,9 @@ template: inverse
 
 # Entrada e saída
 
-- As instruções de entrada e saída permitem ao seu programa interagir com informações externas a ele
-- Estudaremos como **ler** do teclado (entrada) e **escrever** da tela (saída)
+Instruções de **entrada** e **saída** permitem a comunição entre o programa e informações externas a ele.
+
+Estudaremos como **ler** do teclado (entrada) e **escrever** na tela (saída).
 - Saída de dados: `print()`
 - Entrada de dados: `input()`
 
@@ -26,7 +27,9 @@ template: inverse
 ---
 # Saída de dados: print
 
-- Para exibir (imprimir) um valor na tela, use a instrução `print(x)`, substituindo `x` pela expressão cujo resultado deve ser exibido. Exemplos:
+- Para exibir (imprimir) um valor na tela, use a instrução `print(x)`, substituindo `x` pela expressão cujo resultado deve ser exibido.
+
+Exemplos:
 
 ```python
 print(5)
@@ -38,11 +41,14 @@ print(3.14 / 2)
 
 # Imprimindo com número definido de casas decimais
 
-- Para imprimir um valor com um determinado número de casas decimais, converta-o para string usando f-strings. Exemplo:
+- Para imprimir um valor com um determinado número de casas decimais, *converta-o para string usando f-strings*.
+
+Exemplo:
 
 ```python
 total = 1 / 7 #=> 0.14285714285714285
 print(f'{total:.2f}') #=> 0.14
+print(f'{total:.5f}') #=> 0.14286
 ```
 <!-- 
 - Se você precisar controlar o número de casas decimais que vão ser exibidas, use a função `format(x, .Nf)`, que converte um número, `x`, em uma string que representa o número com `N` casas decimais. Exemplo:
@@ -58,7 +64,9 @@ print(format(numero, ".5f"))
 
 # Imprimindo múltiplos valores na mesma linha
 
-- Você também pode usar f-strings. Exemplo:
+- Para exibir dois ou mais valores usar f-strings também.
+
+Exemplo:
 
 ```python
 a = 1
@@ -71,14 +79,17 @@ print(f'{a} {b} {c}') #=> 1 2 3
 
 # Imprimindo múltiplos valores na mesma linha
 
-Você pode passar para o `print` diversas expressões separadas por vírgulas. Exemplo:
+Você pode passar para o `print` diversas expressões separadas por vírgulas. 
+
+Exemplo:
 
 ```python
 idade = 18
 print("Eu tenho", idade, "anos")
 ```
 
-Na saída, as expressões ficam separadas por um espaço em branco. Se quiser remover essa separação, adicione `sep=""`:
+Na saída, as expressões ficam separadas por um **espaço em branco**. 
+Se quiser remover essa separação, adicione `sep=""`:
 
 ```python
 ddd = 71
@@ -97,6 +108,8 @@ print("Oi, ")
 print("pessoal!")
 ```
 
+--
+
 Se você quiser evitar a quebra de linha, use `end=""`. Exemplo:
 
 ```python
@@ -112,12 +125,16 @@ template: inverse
 
 # Entrada: input()
 
-- `input()` lê tudo o que o usuário digita até apertar Enter e retorna o texto digitado como uma string. Exemplo:
+- `input()` lê tudo o que o usuário digita até apertar *Enter* e retorna o texto digitado como uma string.
+
+Exemplo:
 
 ```python
 print("Qual é o seu nome?")
 nome = input()
 print("Oi", nome)
+
+type(nome)
 ```
 
 ---
@@ -136,7 +153,8 @@ print("Soma:", a + b)
 
 --
 
-O `input` sempre retorna uma string! Se necessário, você deve converter para o tipo desejado.
+O comando `input` sempre retorna uma string! 
+Se necessário, você deve converter para o tipo desejado.
 
 ---
 
@@ -180,8 +198,10 @@ c = int(c)
 print(a + b + c)
 ```
 
-`split()` separa o texto da entrada onde tem espaço em branco; cada uma das partes é atribuída para uma variável
+--
 
-Note que `split()` retorna strings; é necessário converter cada parte para inteiro antes de fazer a soma.
+- `split()` separa o texto da entrada com base em *espaço em branco* digitado e cada uma das partes é atribuída para uma variável.
+
+- `split()` retorna strings! É necessário converter cada parte para inteiro antes de fazer a soma.
 
 {:/}
