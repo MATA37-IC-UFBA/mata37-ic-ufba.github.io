@@ -1,12 +1,12 @@
 ---
 layout: remark
-title: Constantes, Variáveis, Tipos de dados e Operadores aritméticos
+title: Variáveis, Constantes, Tipos de dados e Operadores
 ---
 
 {::nomarkdown}
 template: inverse
 
-# Constantes, Variáveis e Tipos
+# Variáveis, Constantes e Tipos
 
 {% include_relative footer.txt %}
 
@@ -27,7 +27,7 @@ O valor da variável pode mudar durante a execução do programa.
 
 # Atribuição
 
-Para **atribuir** um **valor** a uma variável, usa-se `=`. 
+Para **atribuir** um **valor** a uma variável, usa-se `=` 
 
 Exemplos:
 
@@ -62,13 +62,15 @@ Atribuições compostas modificam o valor de uma variável através de uma opera
 
 Uma constante é uma variável especial cujo valor **não deve ser alterado** após a sua definição inicial. 
 
-Como Python não possui um mecanismo nativo para proibir a reatribuição de valores, 
-utiliza-se a **convenção de nomear constantes em letras maiúsculas.
-
 Exemplo:
 ```python
 >>> PI = 3.14
 ```
+
+--
+
+Como Python não possui um mecanismo nativo para proibir a reatribuição de valores, 
+utiliza-se a **convenção de nomear constantes em letras maiúsculas.
 
 ---
 
@@ -85,7 +87,8 @@ Exemplos:
 
 --
 
-Python diferencia maiúsculas e minúsculas nos identificadores. Assim, `idade`, `Idade`, `IDADE` e `iDaDe` são 4 identificadores diferentes, que representam 4 variáveis diferentes.
+Python diferencia maiúsculas e minúsculas nos identificadores. 
+Assim, `idade`, `Idade`, `IDADE` e `iDaDe` são 4 identificadores diferentes, que representam 4 variáveis diferentes.
 
 --
 
@@ -149,7 +152,6 @@ Para saber o tipo de uma variável (por exemplo, `x`), use `type(x)`.
 >>> y = 3.0
 >>> type(y)  #=> class 'float'
 ```
-
 ---
 
 # Conversão de tipos
