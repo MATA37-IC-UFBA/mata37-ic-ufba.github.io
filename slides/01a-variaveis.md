@@ -70,7 +70,7 @@ Exemplo:
 --
 
 Como Python não possui um mecanismo nativo para proibir a reatribuição de valores, 
-utiliza-se a **convenção de nomear constantes em letras maiúsculas.
+utiliza-se a **convenção** de nomear constantes em letras maiúsculas.
 
 ---
 
