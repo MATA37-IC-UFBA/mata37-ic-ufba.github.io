@@ -1,12 +1,12 @@
 ---
 layout: remark
-title: Expressões aritméticas em Python
+title: Expressões em Python
 ---
 
 {::nomarkdown}
 template: inverse
 
-# Expressões aritméticas
+# Expressões em Python
 
 {% include_relative footer.txt %}
 
@@ -21,7 +21,8 @@ Expressões aritméticas podem ser:
 - uma operação aritmética envolvendo duas expressões aritméticas. Ex.:
   - `3.2 + x`
   - `(3.2 + x) / 2`
-- a aplicação de uma função a uma expressão aritmética. Ex.: `int(3.2 + x)`
+- a aplicação de uma função a uma expressão aritmética. Ex.:
+  - `int(3.2 + x)`
 
 ---
 
@@ -37,7 +38,9 @@ Expressões aritméticas podem ser:
 | `%`     | resto da divisão |
 | `**`    | potenciação      |
 
-\* A **divisão inteira** retorna apenas a parte inteira do resultado. Exemplos:
+\* A **divisão inteira** retorna apenas a parte inteira do resultado. 
+
+Exemplos:
 
 - Divisão normal: `10 / 4` ==> `2.5`
 - Divisão inteira: `10 // 4` ==> `2`
@@ -46,7 +49,8 @@ Expressões aritméticas podem ser:
 
 # Precedência de operadores
 
-Certas operações possuem maior **precedência**, isto é, são realizadas primeiro. Por exemplo, na expressão `1 + 4 * 3`, a operação de multiplicação (`4 * 3`) é realizada antes da soma.
+Certas operações possuem maior **precedência**, isto é, são realizadas primeiro. 
+Por exemplo, na expressão `1 + 4 * 3`, a operação de multiplicação (`4 * 3`) é realizada antes da soma.
 
 --
 
@@ -55,11 +59,8 @@ Níveis de precedência de operadores:
 - `**` (maior precedência)
 - `*`, `/`, `//`, `%`
 - `+`, `-` (menor precedência)
-- Duas operações no mesmo nível: executar da esquerda para a direita
-
 
 --
-
 
 Exemplos:
 
@@ -67,7 +68,37 @@ Exemplos:
 - `6 * 6 / 12` = ?
 - `4 / 2 * 3` = ?
 
-- Na dúvida, use parênteses para forçar uma precedência. Ex.: `(1 + 2) * 3`
+- Duas operações na expressão com o mesmo nível de precedência: avaliação da esquerda para a direita.
+
+---
+
+# Associatividade de operadores
+
+- Duas operações na mesma expressão com o mesmo nível de precedência: 
+para a maioria dos operadores a avaliação é da esquerda para a direita,
+exceto a exponenciação (**), que é da direita para a esquerda.
+
+--
+
+Exemplos:
+
+- `1 + 2 + 3` = ?
+- `6 - 5 - 12` = ?
+- `4 / 2 / 3` = ?
+- `2 ** 3 ** 2` = ?
+  
+---
+
+# Parênteses
+
+- Use parênteses explicitamente para definir precedência ou associatividade. 
+
+Exemplos:
+
+- `(1 + 2) * 3` = ?
+- `6 - (5 - 12)` = ?
+- `4 / (2 / 3)` = ?
+- `(2 ** 3) ** 2` = ?
 
 ---
 
