@@ -16,12 +16,17 @@ template: inverse
 
 Expressões aritméticas podem ser:
 
-- um número. Ex.: `3.2`
-- uma variável numérica. Ex.: `x`
-- uma operação aritmética envolvendo duas expressões aritméticas. Ex.:
+- um número
+  - `3.2`
+    
+- uma variável numérica
+  - `x`
+  
+- uma operação aritmética envolvendo duas expressões aritméticas 
   - `3.2 + x`
   - `(3.2 + x) / 2`
-- a aplicação de uma função a uma expressão aritmética. Ex.:
+  
+- a aplicação de uma função a uma expressão aritmética
   - `int(3.2 + x)`
 
 ---
@@ -151,6 +156,8 @@ x = 'maio de ' + ano
 # TypeError: can only concatenate str (not "int") to str
 ```
 
+--
+
 - Para concatenar é preciso converter para string:
 
 ```python
@@ -162,7 +169,7 @@ x = 'maio de ' + str(ano) #=> 'maio de 2001'
 
 # Interpolação de strings
 
-- A **interpolação de strings** é um recurso que permite construir facilmente uma string que contenha valores de variáveis ou expressões. Exemplo:
+- A **interpolação de strings** é um recurso que permite construir facilmente uma string que contenha valores de variáveis ou expressões.
 
 ```python
 nome = 'Fulana'
@@ -170,7 +177,7 @@ idade = 18
 frase = f'{nome} tem {idade} anos' #=> 'Fulana tem 18 anos'
 ```
 
-- Dentro das string, expressões entre chaves (`{}`) são substituídas pelos seus valores (convertidos para string)
+Dentro da string, expressões entre chaves (`{ }`) são substituídas pelos seus valores (convertidos para string).
 - O `f` antes das aspas indica que queremos que o Python faça essa substituição
   - Sem o `f` não funciona (faça o teste!)
   - Essas strings são chamadas de *f-strings* (*formatted strings*)
@@ -179,11 +186,13 @@ frase = f'{nome} tem {idade} anos' #=> 'Fulana tem 18 anos'
 
 # Interpolação de strings
 
-No caso de expressões do tipo `float`, podemos controlar a quantidade de casas decimais. Exemplo com duas casas decimais:
+No caso de expressões do tipo `float`, podemos controlar a quantidade de casas decimais. 
+
+Exemplo com duas casas decimais:
 
 ```python
 total = 1 / 7 #=> 0.14285714285714285
-frase = f'Resultado: {total:.2f}' #=> 0.14
+frase = f'Resultado: {total:.2f}' #=> Resultado: 0.14
 ```
 
 {:/}
