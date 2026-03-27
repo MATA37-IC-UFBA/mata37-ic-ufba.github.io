@@ -111,6 +111,14 @@ template: inverse
 # Tipos de dados
 
 ---
+
+# Tipos
+
+Um tipo em Python define a natureza de um dado (inteiro, real, etc.), 
+determinando como ele é armazenado, processado e quais operações podem ser realizadas com tal dado. 
+
+---
+
 # Tipos
 
 Os tipos de dados básicos em Python são os seguintes:
@@ -141,11 +149,19 @@ Exemplos:
 
 ---
 
-# type(var)
+# Tipos em Python
 
-Para saber o tipo de uma variável (por exemplo, `x`), use `type(x)`.
+A Python usa "tipagem dinâmica" e o interpretador identifica o tipo automaticamente.
+
+## type(var)
+
+Para saber o tipo de um valor ou variável (por exemplo, `x`), use `type(x)`.
+
+--
 
 ```python
+>>> type(1)  #=> class 'int'
+<class 'int'>
 >>> x = 1
 >>> type(x)  #=> class 'int'
 >>> y = 3.0
