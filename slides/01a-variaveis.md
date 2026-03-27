@@ -103,8 +103,7 @@ Eles representam dados primitivos, como números, texto (strings), etc.
 
 Exemplos:
 
-> 25, 1000, 66.67
-> "total", "Olá, pessoal!"
+> 25, 1000, 66.67, "total", "Olá, pessoal!"
 
 ---
 
