@@ -128,9 +128,6 @@ Use os operadores relacionais:
 - `==`  é igual a (não confundir com `=`)
 - `!=`  é diferente de
 
-
-Use o terminal e python e teste algumas expressões relacionais; o resultado é `True` ou `False`.
-
 --- 
 
 # if: Outro exemplo
@@ -145,10 +142,7 @@ preco = float(input())
 quantidade = int(input())
 
 total = preco * quantidade
-```
---
 
-```python
 if quantidade > 10:
    total *= 0.95
 
