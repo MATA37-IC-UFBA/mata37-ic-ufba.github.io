@@ -14,10 +14,20 @@ template: inverse
 
 # Estruturas de seleção
 
-As estruturas de seleção determinam, com base no valor de uma **condição** (verdadeira ou falsa)
+Estruturas de seleção determinam, com base no valor de uma **condição** (verdadeira ou falsa)
 se certas linhas de código serão executadas ou não.
 
 Em Python, usamos as palavras-chave `if` (se), `else` (caso contrário) e `elif` (abreviação de *else if*)
+
+--
+
+```python
+idade = int(input("Digite sua idade: "))
+if idade < 18:
+    print("Você tem menos de 18 anos.")
+    print("Por favor, trazer autorização do responsável.")
+print("Programa finalizado.")
+```
 
 ---
 
@@ -42,9 +52,9 @@ if condicao:
 ```
 
 - Depois da condição deve vir um sinal de dois-pontos (`:`)
-- A sequência de instruções deve estar indentada em relação à palavra `if` (isto é, deve estar mais à direita)
+- A sequência de instruções deve estar **indentada** em relação à palavra `if` (isto é, deve estar deslocada para a direita)
 
-- Significado: o `bloco de código` (sequência de instruções) é executado somente se a `condicao` for verdadeira
+- Significado: o `bloco de código` é uma sequência de uma ou mais instruções executadas somente se a `condicao` for verdadeira
 ---
 
 # if
@@ -52,8 +62,8 @@ if condicao:
 ```python
 idade = int(input("Digite sua idade: "))
 if idade < 18:
-    print("Você não é adulto.")
-    print("Favor trazer autorização do responsável.")
+    print("Você tem menos de 18 anos.")
+    print("Por favor, trazer autorização do responsável.")
 print("Programa finalizado.")
 ```
 
