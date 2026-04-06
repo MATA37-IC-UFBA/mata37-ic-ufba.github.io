@@ -137,7 +137,7 @@ Use os operadores relacionais:
 - Use o terminal e python e teste algumas expressões relacionais, por exemplo, ```1 > 3```
    - O resultado é True ou False.
 
----
+--- 
 
 # if: Outro exemplo
 
@@ -145,7 +145,6 @@ Na compra de um produto, dado o seu preço unitário e o número de unidades com
 imprima o valor total da compra.
 Se o número de unidades for superior a 10, o cliente ganha `5%` de desconto.
 
---
 
 ```python
 preco = float(input())
