@@ -53,10 +53,14 @@ if condicao:
     bloco de código
 ```
 
-- Depois da condição deve vir um sinal de dois-pontos (`:`)
+`Significado:` 
+
+O `bloco de código` é uma sequência de uma ou mais instruções executadas somente se a `condicao` for verdadeira.
+
+Atenção:
+- Após `if condição`, colocar dois-pontos (`:`)
 - A sequência de instruções deve estar **indentada** em relação à palavra `if` (isto é, deve estar deslocada para a direita)
 
-- Significado: o `bloco de código` é uma sequência de uma ou mais instruções executadas somente se a `condicao` for verdadeira
 ---
 
 # if
