@@ -97,26 +97,18 @@ Visualize a execução do código no [Python Tutor](http://pythontutor.com/visua
 
 # Indentação
 
-Exemplo 1:
+Exemplos:
 
 ```python
 # ERRADO!
 if 1 < 2:
 print("Menor")
-```
 
 
-Exemplo 2:
-
-```python
 # ERRADO!
   if 1 < 2:
 print("Menor")
-```
 
-Exemplo 3:
-
-```python
 # ERRADO!
 if idade < 18:
     print("Você não é adulto.")
@@ -137,7 +129,7 @@ Use os operadores relacionais:
 - `!=` - é diferente de
 
 
-- Use o terminal e python e teste algumas expressões relacionais, por exemplo, ```1 > 3```
+- Use o terminal e python e teste algumas expressões relacionais, por exemplo, `1 > 3`.
    - O resultado é True ou False.
 
 --- 
