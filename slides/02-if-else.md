@@ -121,16 +121,15 @@ if idade < 18:
 
 Use os operadores relacionais:
 
-- `>` - é maior que
-- `<` - é menor que
-- `>=` - é maior ou igual a (não escrever `=>`)
-- `<=` - é menor ou igual a (não escrever `=<`)
-- `==` - é igual a (não confundir com `=`)
-- `!=` - é diferente de
+- `>`  é maior que
+- `<`  é menor que
+- `>=`  é maior ou igual a (não escrever `=>`)
+- `<=`  é menor ou igual a (não escrever `=<`)
+- `==`  é igual a (não confundir com `=`)
+- `!=`  é diferente de
 
 
-- Use o terminal e python e teste algumas expressões relacionais, por exemplo, `1 > 3`.
-   - O resultado é True ou False.
+Use o terminal e python e teste algumas expressões relacionais; o resultado é `True` ou `False`.
 
 --- 
 
