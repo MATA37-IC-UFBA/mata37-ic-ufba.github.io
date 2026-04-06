@@ -21,6 +21,8 @@ Em Python, usamos as palavras-chave `if` (se), `else` (caso contrário) e `elif`
 
 --
 
+Exemplo:
+
 ```python
 idade = int(input("Digite sua idade: "))
 if idade < 18:
@@ -36,7 +38,7 @@ print("Programa finalizado.")
 
 <img src="./figs/fig-if-flow.png" alt="image" width="100%">
 
-- Significado: se a `condicao` for verdadeira (`True`),  o `bloco de código` (sequência de instruções) é executado.
+- Significado: se a `condição` for verdadeira (`True`),  o `bloco de código` (sequência de instruções) é executado.
 
 ---
 
@@ -44,7 +46,7 @@ print("Programa finalizado.")
 
 Do inglês, `if` significa **se**.
 
-- Sintaxe:
+`Sintaxe:`
 
 ```c++
 if condicao:
