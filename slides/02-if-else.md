@@ -59,7 +59,7 @@ O `bloco de código` é uma sequência de uma ou mais instruções executadas so
 
 Atenção:
 - Após `if condição`, colocar dois-pontos (`:`)
-- A sequência de instruções deve estar **indentada** em relação à palavra `if` (isto é, deve estar deslocada para a direita)
+- A sequência de instruções abaixo do `if` deve estar **indentada** (isto é, deve estar deslocada para a direita)
 
 ---
 
@@ -89,18 +89,31 @@ Visualize a execução do código no [Python Tutor](http://pythontutor.com/visua
   - Python usa indentação para determinar onde começa e onde termina um bloco de código
      - uma sequência de linhas com a mesma indentação (mesmo número de espaços) é um bloco de código
   
-- Você pode usar espaços ou tabs, mas não misture os dois no mesmo código-fonte
+- Você pode usar espaços ou `tabs`, mas não misture os dois no mesmo código-fonte
 - Se você indentar seu código errado, o interpretador vai emitir um `IndentationError`.
+
+Exemplo 1:
 
 ```python
 # ERRADO!
 if 1 < 2:
 print("Menor")
+```
 
+---
+
+Exemplo 2:
+
+```python
 # ERRADO!
   if 1 < 2:
 print("Menor")
+```
+--
 
+Exemplo 3:
+
+```python
 # ERRADO!
 if idade < 18:
     print("Você não é adulto.")
@@ -120,13 +133,9 @@ Use os operadores relacionais:
 - `==` - é igual a (não confundir com `=`)
 - `!=` - é diferente de
 
----
 
-# if: Outro exemplo
-
-Na compra de um produto, dado o seu preço unitário e o número de unidades compradas, 
-imprima o valor total da compra.
-Se o número de unidades for superior a 10, o cliente ganha `5%` de desconto.
+- Use o terminal e python e teste algumas expressões relacionais, por exemplo, ```1 > 3```
+   - O resultado é True ou False.
 
 ---
 
@@ -135,12 +144,18 @@ Se o número de unidades for superior a 10, o cliente ganha `5%` de desconto.
 Na compra de um produto, dado o seu preço unitário e o número de unidades compradas, 
 imprima o valor total da compra.
 Se o número de unidades for superior a 10, o cliente ganha `5%` de desconto.
+
+--
 
 ```python
 preco = float(input())
 quantidade = int(input())
 
 total = preco * quantidade
+```
+--
+
+```python
 if quantidade > 10:
    total *= 0.95
 
@@ -183,7 +198,9 @@ Entrada: ano atual, ano de nascimento, e a string `S` (se já fez aniversário n
 ano_atual = int(input())
 ano_nascimento = int(input())
 nao_fez_aniversario = (input() == "N") # variável do tipo Bool
-
+```
+--
+```python
 # Processamento
 idade = ano_atual - ano_nascimento
 if nao_fez_aniversario:
@@ -204,7 +221,7 @@ idade = int(input("Digite sua idade: "))
 if idade >= 18:
     print("Você é adulto.")
 if idade < 18:
-    print("Você não é adulto.")
+    print("Você ainda não é adulto.")
 ```
 
 Note que as condições são complementares. 
@@ -214,9 +231,10 @@ Nesse caso, pode-se usar a estrutura `if-else`.
 
 # if-else: seleção de dois ramos
 
-Do inglês, `else` significa "senão", "caso contrário". O `else` nunca aparece sozinho; ele é parte da estrutura if-else.
+Do inglês, `else` significa "senão", "caso contrário". 
+O `else` nunca aparece sozinho; ele é parte da estrutura if-else.
 
-Sintaxe:
+**Sintaxe:**
 
 ```c++
 if condicao:
@@ -225,7 +243,9 @@ else:
     bloco2
 ```
 
-Semântica: se a `condicao` for verdadeira (True), executa `bloco1`; se for falsa (False), executa `bloco2`
+**Semântica:**
+
+Se a `condicao` for verdadeira (True), executa `bloco1`; se for falsa (False), executa `bloco2`
 
 ---
 
@@ -262,7 +282,7 @@ print("Fim")
 
 # if-elif
 
-Sintaxe:
+**Sintaxe:**
 
 ```python
 if cond1:
@@ -275,9 +295,11 @@ else:     # o else é opcional
     blocoM   
 ```
 
-Semântica: Executa o `bloco1` se a condição `cond1` for verdadeira; caso contrário, executa `bloco2` se a condição `cond2` for verdadeira, e assim por diante. Se todas as condições `cond1`...`condN` forem falsas, executa `blocoM`.
+**Semântica:**
 
-OBS.: Nessa estrutura, executa-se *apenas* o bloco de código que corresponde à *primeira* condição verdadeira (de cima pra baixo).
+Executa o `bloco1` se a condição `cond1` for verdadeira; caso contrário, executa `bloco2` se a condição `cond2` for verdadeira, e assim por diante. Se todas as condições `cond1`...`condN` forem falsas, executa `blocoM`.
+
+- Nessa estrutura, executa-se *apenas* o bloco de código que corresponde à *primeira* condição verdadeira (de cima pra baixo).
 
 ---
 
@@ -396,17 +418,8 @@ if y == 1 or x > 0 and x < 5:
 ```
 
 Por causa das regras de precedência, a expressão é equivalente a `(y == 1) or (x > 0 and x < 5)`.
+- Use parênteses!
 
----
-
-# Avaliação em curto-circuito
-
-Ao computar o resultado de uma expressão lógica com operadores `and` e `or`, o interpretador só avalia as subexpressões se necessário.
-
-- `A and B`: se A for falso, a expressão B não é avaliada pois, qualquer que seja seu valor, a expressão `A and B` é falsa
-- `A or B`: se A for verdadeiro, a expressão B não é avaliada pois, qualquer que seja seu valor, a expressão `A or B` é verdadeira
-
----
 
 # Exemplo: obrigatoriedade de votação
 
@@ -414,7 +427,7 @@ Ao computar o resultado de uma expressão lógica com operadores `and` e `or`, o
 # Programa que lê a idade de uma pessoa e mostra uma mensagem
 # indicando a possibilidade e obrigatoriedade do voto
 #
-# Menor de 18 anos: Não vota
+# Menor de 16 anos: Não pode votar
 # 16 ou 17 anos: Voto facultativo
 # 18 a 69 anos: Voto obrigatório
 # 70 anos ou maior: Voto facultativo
@@ -428,5 +441,16 @@ if idade >= 16:
 else:
     print("Não pode votar")
 ```
+
+---
+
+# Avaliação em curto-circuito
+
+Ao computar o resultado de uma expressão lógica com operadores `and` e `or`, 
+o interpretador só avalia as subexpressões se necessário.
+
+- `A and B`: se A for falso, a expressão B não é avaliada pois, qualquer que seja seu valor, a expressão `A and B` é falsa
+- `A or B`: se A for verdadeiro, a expressão B não é avaliada pois, qualquer que seja seu valor, a expressão `A or B` é verdadeira
+
 
 {:/}
