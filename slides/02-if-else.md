@@ -119,6 +119,7 @@ if idade < 18:
 
 # Como escrever condições
 
+
 Use os operadores relacionais:
 
 - `>`  é maior que
@@ -128,14 +129,13 @@ Use os operadores relacionais:
 - `==`  é igual a (não confundir com `=`)
 - `!=`  é diferente de
 
---- 
-
-# if: Outro exemplo
+`Exemplo:`
 
 Na compra de um produto, dado o seu preço unitário e o número de unidades compradas, 
 imprima o valor total da compra.
 Se o número de unidades for superior a 10, o cliente ganha `5%` de desconto.
 
+---
 
 ```python
 preco = float(input())
