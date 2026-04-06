@@ -414,6 +414,7 @@ if y == 1 or x > 0 and x < 5:
 Por causa das regras de precedência, a expressão é equivalente a `(y == 1) or (x > 0 and x < 5)`.
 - Use parênteses!
 
+---
 
 # Exemplo: obrigatoriedade de votação
 
