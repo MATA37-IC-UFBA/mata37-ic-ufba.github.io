@@ -92,6 +92,11 @@ Visualize a execução do código no [Python Tutor](http://pythontutor.com/visua
 - Você pode usar espaços ou `tabs`, mas não misture os dois no mesmo código-fonte
 - Se você indentar seu código errado, o interpretador vai emitir um `IndentationError`.
 
+
+---
+
+# Indentação
+
 Exemplo 1:
 
 ```python
@@ -100,7 +105,6 @@ if 1 < 2:
 print("Menor")
 ```
 
----
 
 Exemplo 2:
 
@@ -109,7 +113,6 @@ Exemplo 2:
   if 1 < 2:
 print("Menor")
 ```
---
 
 Exemplo 3:
 
