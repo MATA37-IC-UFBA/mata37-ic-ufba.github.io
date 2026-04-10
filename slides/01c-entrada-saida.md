@@ -205,23 +205,4 @@ print(a + b + c)
 - `split()` retorna strings! É necessário converter cada parte para inteiro antes de fazer a soma.
 
 
---- 
-
-# Uso de ```map``` e ```input()```
-
-O uso de ```map()``` com ```input()``` em Python 
-é a forma mais comum e eficiente de capturar e converter múltiplos valores de uma única vez. 
-
-A  função ```input()``` sempre retorna uma ```string``` e o ```map()``` 
-facilita a transformação dos dados de entrada para tipos numéricos (integer ou float).
-
-- ```map(int, ...)```: Aplica a conversão para inteiro (int) a cada elemento de uma lista.
-
-Exemplo:
-
-```python
-largura, altura = map(int, input().split())
-print(f'Área: {largura * altura}')
-```
-
 {:/
