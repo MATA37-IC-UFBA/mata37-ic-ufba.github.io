@@ -213,9 +213,7 @@ O uso de map() com input() em Python é a forma mais comum e eficiente de captur
 
 A  função input() sempre retorna uma string e o map() facilita a transformação dos dados de entrada para tipos numéricos (int ou float).
 
-- map(int, ...): Aplica a conversão para **int** a cada elemento de uma lista.
-
---
+- `map(int, ...)`: Aplica a conversão para **int** a cada elemento de uma lista.
 
 Exemplo:
 
