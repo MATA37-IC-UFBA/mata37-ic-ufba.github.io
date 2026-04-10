@@ -23,9 +23,6 @@ Estudaremos como **ler** do teclado (entrada) e **escrever** na tela (saída).
 
 ---
 
-template: inverse
-# Saída de dados
----
 # Saída de dados: print
 
 - Para exibir (imprimir) um valor na tela, use a instrução `print(x)`, substituindo `x` pela expressão cujo resultado deve ser exibido.
@@ -51,15 +48,6 @@ total = 1 / 7 #=> 0.14285714285714285
 print(f'{total:.2f}') #=> 0.14
 print(f'{total:.5f}') #=> 0.14286
 ```
-<!-- 
-- Se você precisar controlar o número de casas decimais que vão ser exibidas, use a função `format(x, .Nf)`, que converte um número, `x`, em uma string que representa o número com `N` casas decimais. Exemplo:
-
-```python
-numero = 1.5 ** 2
-print(format(numero, ".2f"))
-print(format(numero, ".5f"))
-```
--->
 
 ---
 
