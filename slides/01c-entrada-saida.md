@@ -207,20 +207,21 @@ print(a + b + c)
 
 --- 
 
-# Uso de map e input()
+# Uso de ```map``` e ```input()```
 
-O uso de map() com input() em Python é a forma mais comum e eficiente de capturar e converter múltiplos valores de uma única vez. 
+O uso de ```map()``` com ```input()``` em Python 
+é a forma mais comum e eficiente de capturar e converter múltiplos valores de uma única vez. 
 
-A  função input() sempre retorna uma string e o map() facilita a transformação dos dados de entrada para tipos numéricos (int ou float).
+A  função ```input()``` sempre retorna uma ```string``` e o ```map()``` 
+facilita a transformação dos dados de entrada para tipos numéricos (integer ou float).
 
-- `map(int, ...)`: Aplica a conversão para **int** a cada elemento de uma lista.
+- ```map(int, ...)```: Aplica a conversão para inteiro (int) a cada elemento de uma lista.
 
 Exemplo:
 
 ```python
-largura, altura = map(int, input("Digite a largura e altura: ").split())
+largura, altura = map(int, input().split())
 print(f'Área: {largura * altura}')
 ```
-
 
 {:/
