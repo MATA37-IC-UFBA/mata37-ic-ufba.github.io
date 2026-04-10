@@ -1,6 +1,6 @@
 ---
 layout: remark
-title: Entrada e Saída em Python
+title:
 ---
 
 {::nomarkdown}
