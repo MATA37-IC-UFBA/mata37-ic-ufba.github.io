@@ -203,7 +203,7 @@ print(a + b + c)
 
 Exemplo:
 
-Programa que divide uma string em duas substrings considerando o caractere '.'
+Programa que divide `cadeia` em duas substrings, considerando o caractere '.'
 
 ```python
 >>> cadeia = "45.09"
