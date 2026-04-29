@@ -1,10 +1,9 @@
 ---
 layout: remark
-title:
+title: Entrada e Saída
 ---
 
 {::nomarkdown}
-
 template: inverse
 
 # Entrada e Saída de Dados
@@ -13,19 +12,21 @@ template: inverse
 
 ---
 
-# Entrada e saída
+# Entrada e Saída
 
-Instruções de **entrada** e **saída** permitem a comunição entre o programa e informações externas a ele.
+Instruções de entrada e instruções de saída 
+permitem a comunicação entre o programa e informações externas a ele.
 
-Estudaremos como **ler** do teclado (entrada) e **escrever** na tela (saída).
+Estudaremos como **ler do teclado (entrada)** e **escrever na tela (saída)**.
 - Saída de dados: `print()`
 - Entrada de dados: `input()`
 
 ---
 
-# Saída de dados: print
+# Saída de dados: `print`
 
-- Para exibir (imprimir) um valor na tela, use a instrução `print(x)`, substituindo `x` pela expressão cujo resultado deve ser exibido.
+- Para exibir (imprimir) um valor na tela, 
+use a instrução `print(x)`, substituindo `x` pela expressão cujo resultado deve ser exibido.
 
 Exemplos:
 
@@ -39,12 +40,13 @@ print(3.14 / 2)
 
 # Imprimindo com número definido de casas decimais
 
-- Para imprimir um valor com um determinado número de casas decimais, *converta-o para string usando f-strings*.
+- Para imprimir um valor com um determinado número de casas decimais, 
+converta-o para string usando `f-strings`.
 
 Exemplo:
 
 ```python
-total = 1 / 7 #=> 0.14285714285714285
+total = 1 / 7         #=> 0.14285714285714285
 print(f'{total:.2f}') #=> 0.14
 print(f'{total:.5f}') #=> 0.14286
 ```
@@ -53,7 +55,7 @@ print(f'{total:.5f}') #=> 0.14286
 
 # Imprimindo múltiplos valores na mesma linha
 
-- Para exibir dois ou mais valores usar f-strings também.
+- Para exibir dois ou mais valores usar `f-strings` também.
 
 Exemplo:
 
@@ -193,5 +195,17 @@ print(a + b + c)
 
 - `split()` retorna strings! É necessário converter cada parte para inteiro antes de fazer a soma.
 
+---
 
-{:/
+# Split() pode separar considerando outro caractere
+
+Programa que divide uma string em substrings separadas por '.'
+
+```python
+>>> cadeia = "45.09"
+>>> inteiro, decimal = cadeia.split('.')
+>>> print(inteiro, decimal)  #=> 45 09
+```
+
+{:/}
+
