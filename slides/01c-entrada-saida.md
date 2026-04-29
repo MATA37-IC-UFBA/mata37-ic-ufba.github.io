@@ -197,9 +197,13 @@ print(a + b + c)
 
 ---
 
-# Split() pode separar considerando outro caractere
+# Split() é uma função que "quebra" uma string
 
-Programa que divide uma string em substrings separadas por '.'
+- `split()` pode ser usada para quebrar uma string em substrings considerando algo diferente de *espaço em branco*.
+
+Exemplo:
+
+Programa que divide uma string em duas substrings considerando o caractere '.'
 
 ```python
 >>> cadeia = "45.09"
