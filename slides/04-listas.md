@@ -34,28 +34,39 @@ print(a)
 
 A **lista** é um tipo de dados usado para armazenar coleções de dados.
 
-- Listas podem conter 0, 1 ou mais elementos
-   - **tamanho** da lista
-   - Uma lista com 0 elementos é chamada de **lista vazia**
-- Os elementos da lista podem ser de tipos diferentes:
-   - Por exemplo, uma lista pode conter um elemento do tipo `str`, um elemento do tipo `int` e um elemento do tipo `float` 
-- Elementos da lista podem ser outras listas
-- É possível *adicionar* elementos ou *remover* elementos de listas.
+Exemplo:
+- Uma lista de compras para o mercado.
+   - limão
+   - tomate
+   - azeite
+
+- O **tamanho** de uma lista indica o número de itens ou elementos.
+   - A lista de compras possui três elementos   
+
+- Uma lista com 0 elementos é chamada de **lista vazia**.
+
 
 ---
 # Listas (Python)
 
-- A lista é representada entre `[` e `]`, e seus elementos são separados por vírgulas.
-   - Lista vazia: []
-   - Uma lista com 1 elemento: [10]
-   - Uma lista com 2 elementos: [10,20]
-   - Uma lista com 3 elementos de tipos diferentes: ['Maria', 10, 20.0]
+- Listas são representadas entre `[` e `]`, e seus elementos são separados por vírgulas.
+   - Lista vazia: `[]`
+   - Uma lista com 1 elemento: `[10]`
+   - Uma lista com 2 elementos: `[10,20]`
 
+- Elementos da lista podem ser de tipos diferentes:
+`['Maria', 10, 20.0]`
+
+- Elementos da lista podem ser *outras listas* 
+
+`[['tomate','limao','azeite', 'sal'],['guardanapo','papel-toalha']]`
+
+- É possível **adicionar** elementos ou **remover** elementos de listas.
 
 ---
 # Inicialização com repetição
  
-- Operador "\*":  usado para criar uma lista maior a partir da repetição dos elementos de uma lista menor.
+- Operador "\*":  para criar uma lista maior a partir da repetição dos elementos de uma lista menor.
 
 ```python
 >>> [0] * 4
@@ -131,7 +142,7 @@ x[0] = 'Z'   # modifica o valor do primeiro elemento da lista
 x[3] = 'W'   # IndexError: list assignment index out of range
 ```
 
-- O elemento **x[3]** não existe.
+- A lista `x` possui tamanho 3, mas o elemento **x[3]** não existe.
 
 
 ---
