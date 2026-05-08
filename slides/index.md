@@ -24,9 +24,11 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
 - [Entrada e saída](01c-entrada-saida)
    - [Correção automática - Padrões de entrada e saída](01d-entrada-saida-correcao)
 - [Condicionais (if/else)](02-if-else)
-- [Estruturas de repetição (for)](03a-repeticao)
-- [Estruturas de repetição (while)](03b-repeticao)
-- [Outros comandos](03c-repeticao)
+- Estruturas de repetição
+   - [Estruturas de repetição (for)](03a-repeticao)
+   - [Estruturas de repetição (while)](03b-repeticao)
+      - [break/continue](03c-break-continue)
+   - [Conceitos](03c-repeticao-conceitos)
 - [Listas](04-listas)
 - [Funções](https://docs.google.com/presentation/d/1WwM1eyjoHY1AjlFB-QMLRkpf282d8reQ_gSj32hWo-k/edit)
 
