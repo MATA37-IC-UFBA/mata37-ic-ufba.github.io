@@ -12,7 +12,11 @@ template: inverse
 
 ---
 template: inverse
-## Estrutura `while`
+
+# Estrutura `while`
+
+---
+<img src="./figs/fig-while-flow.png" width="70%">
 
 ---
 <img src="./for-while/for-while.014.jpeg" width="100%">
@@ -51,6 +55,26 @@ template: inverse
 ---
 <img src="./for-while/for-while.025.jpeg" width="100%">
 
+---
+template: inverse
+
+# Exercícios
+
+---
+
+# Exercícios
+
+(1) Escrever "eu sei programar" 5 vezes.
+
+(2) Escrever a sequência 0,2,4,6,8,10.
+
+(3) Escrever a sequência 9,6,3,0,-3,-6,-9
+
+(4) Escrever a sequência 1,2,4,8,16,32,64       
+
+(5) Escrever a sequência 1,2,3,4,1,2,3,4,1,2,3,4
+
+(6) Escrever a sequência 1,2,3,4,4,3,2,1
 
 {:/}
 
