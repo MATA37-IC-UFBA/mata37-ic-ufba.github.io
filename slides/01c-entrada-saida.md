@@ -124,8 +124,6 @@ Exemplo:
 print("Qual é o seu nome?")
 nome = input()
 print("Oi", nome)
-
-type(nome)
 ```
 
 ---
@@ -149,11 +147,7 @@ Se necessário, você deve converter para o tipo desejado.
 
 ---
 
-template: exercise
 # Exemplo com input()
-
-
-Programa corrigido:
 
 ```python
 print("Digite o primeiro número:")
@@ -165,10 +159,9 @@ print("Soma:", a + b)
 
 ---
 
-template: exercise
 # Outro exemplo com input()
 
-Programa que lê um número e imprime seu dobro:
+Programa que lê um número inteiro e imprime seu dobro:
 
 ```python
 numero = int(input())
@@ -191,24 +184,37 @@ print(a + b + c)
 
 --
 
-- `split()` separa o texto da entrada com base em *espaço em branco* digitado e cada uma das partes é atribuída para uma variável.
+- `split()` quebra uma _string_ em substrings, com base no delimitador  *espaço em branco*.
 
-- `split()` retorna strings! É necessário converter cada parte para inteiro antes de fazer a soma.
+```
+"1 2 3".split() # retorna ['1','2','3']
+```
+
+- No exemplo, deve-se converter cada substring para `int` antes de fazer a soma.
 
 ---
 
-# Split() é uma função que "quebra" uma string
+# Split() quebra uma _string_ em substrings
 
-- `split()` pode ser usada para quebrar uma string em substrings considerando algo diferente de *espaço em branco*.
+- `split()` considera um separador ou delimitador (pode ser diferente de *espaço em branco*).
 
 Exemplo:
-
 Programa que divide `cadeia` em duas substrings, considerando o caractere '.'
 
 ```python
 >>> cadeia = "45.09"
 >>> inteiro, decimal = cadeia.split('.')
 >>> print(inteiro, decimal)  #=> 45 09
+```
+
+---
+
+# Map() aplica uma função a elementos de uma lista.
+
+
+```python
+a, b, c = map(int,input().split())
+print(a + b + c)
 ```
 
 {:/}
