@@ -163,8 +163,22 @@ a b c
 
 # Conversão de map para list
 
-O retorno da função `map()` não é uma lista, 
-mas pode ser convertido para uma lista através da função `list()`:
+A função `map()` não retorna uma lista.
+
+```python
+# Considere a seguinte entrada:
+# 1 2 3
+numeros = map(int, input().split())
+print(numeros)
+print(numeros[0])
+```
+
+- Qual a saída?
+
+---
+# Conversão de map para list
+
+Um objeto `map` pode ser convertido para uma lista através da função `list()`:
 
 ```python
 # Considere a seguinte entrada:
@@ -174,11 +188,13 @@ print(numeros)
 print(numeros[0])
 ```
 
+- Qual a saída?
+
 ---
 # Conversão de range para list
 
-O retorno da função `range()` não é uma lista, 
-mas pode ser convertido para uma lista através da função `list()`:
+A função `range()` não retorna uma lista. 
+O objeto retornado pode ser convertido para uma lista com `list()`:
 
 ```python 
 numeros = list(range(0, 10, 2))
@@ -186,12 +202,35 @@ numeros[0] = 99
 print(numeros)
 ``` 
 
+- Qual a saída?
+
+
 ---
 
 template: inverse
 # Operações sobre Listas
 
 Sugestão: Visualizar operações sobre listas usando o [PythonTutor](https://pythontutor.com/)
+
+---
+
+# Tipos de operações sobre listas
+
+Há dois tipos de operações:
+- Operações que **modificam uma lista** existente
+- Operações que **criam uma nova lista** a partir de listas existentes
+
+```python
+L1 = [10, 20]
+L2 = [30, 40]
+
+L1.extend(L2)  # Modifica L1, inserindo os elementos de L2 no final
+print(L1)
+
+L3 = L1 + L2   # Cria uma nova lista L3; L1 e L2 não são modificadas
+print(L3)
+
+```
 
 ---
 
@@ -234,25 +273,6 @@ L3 = L1 + L2   # Cria uma nova lista com os elementos de L1 e L2
 
 ---
 
-# Tipos de operações sobre listas
-
-Há dois tipos de operações:
-- Operações que **modificam uma lista** existente
-- Operações que **criam uma nova lista** a partir de listas existentes
-
-```python
-L1 = [10, 20]
-L2 = [30, 40]
-
-L1.extend(L2)  # Modifica L1, inserindo os elementos de L2 no final
-print(L1)
-
-L3 = L1 + L2   # Cria uma nova lista L3; L1 e L2 não são modificadas
-print(L3)
-
-```
----
-
 # Listas são usadas com for e while
 
 Listas são frequentemente usadas em conjunto com estruturas de repetição, sobretudo o `for`.
@@ -264,12 +284,12 @@ for n in numeros:
 ```
 ---
 
-## Transformar ou filtrar elementos de listas
+# Transformar ou filtrar elementos de listas
 
 **List comprehensions** são usadas para 
 _transformar_ e _filtrar_ elementos de listas.
 
-### Transformando elementos
+## Transformando elementos
 
 ```python
 entrada = ["4", "8", "3"]
@@ -277,14 +297,14 @@ inteiros = [int(n) for n in entrada] # mesmo tamanho
 dobro = [n * 2 for n in inteiros]    # mesmo tamanho
 ```
 
-### Filtrando elementos
+## Filtrando elementos
 
 ```python
 lista = [-1, -4, 2, -3, 4]
 positivos = [n for n in lista if n > 0] # tamanho igual ou menor
 ```
 
-### Filtrando e transformando
+## Filtrando e transformando
 
 ```python
 pares = [n * 10 for n in lista if n % 2 == 0]
@@ -308,18 +328,6 @@ Para explorar:
 template:inverse
 
 # Algoritmos que usam listas
-
----
-
-# Listas são usadas com for e while
-
-Listas são frequentemente usadas em conjunto com estruturas de repetição, sobretudo o `for`.
-
-```python
-numeros = [5, 3, 8, 1]
-for n in numeros:
-   print(n)
-```
 
 ---
 
