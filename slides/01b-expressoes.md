@@ -136,7 +136,8 @@ template: exercise
 # Expressões com strings
 
 - Strings admitem a operação de **concatenação**, com o operador `+`
-- Exemplo:
+
+Exemplo:
 
 ```python
 nome = "Fulano"
@@ -164,6 +165,18 @@ x = 'maio de ' + ano
 ano = 2001
 x = 'maio de ' + str(ano) #=> 'maio de 2001'
 ```
+
+---
+
+# Expressões com strings
+
+- Strings admitem a operação análoga à "multiplicação", com o operador `*` (concatenações sucessivas).
+
+Exemplo:
+
+```python
+udt  = '1 2 3 4'
+udt * 3                  #=> "1 2 3 4 1 2 3 4 1 2 3 4"
 
 ---
 
