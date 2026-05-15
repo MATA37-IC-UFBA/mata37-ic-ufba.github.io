@@ -109,7 +109,8 @@ Documentação de programas. Teste de programas. Análise de resultados.
 # Leituras
 
 - Allen B. Downey.  (2ª ed.). Disponível em https://penseallen.github.io/PensePython2e/
-- Allen B. Downey.  (3ª ed.). Disponível em https://panda.ime.usp.br/pensepy/static/pensepy/
+- Tradução do livro How to Think Like a Computer Scientist: Interactive Version.
+Copyright (C) Brad Miller, David Ranum, Jeffrey Elkner, Peter Wentworth, Allen B. Downey, Chris Meyers, and Dario Mitchell. Disponível em https://panda.ime.usp.br/pensepy/static/pensepy/
 
 
 {:/}
