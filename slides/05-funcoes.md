@@ -23,10 +23,12 @@ de seu bloco de código.
 - Ao final de sua execução, a função pode retornar um valor
 e o controle retorna para o `chamador` (_caller_).
 
-### Exemplo de chamadas de função
+Python fornece várias funções prontas para serem usadas: input(), sqrt(), len(), int()... 
 
-Python fornece várias funções prontas para serem usadas: 
-- input(), sqrt(), len(), int()... 
+---
+
+## Exemplo de chamada de função
+
 
 ```python
 >>> x = sqrt(9)
@@ -37,19 +39,26 @@ Python fornece várias funções prontas para serem usadas:
 ---
 ## Funções simples 
 
-Programa (sem funções): 
+### Programa (sem funções)
 
 <img src="./figs-function/Funcoes-02.png" width="100%">
 
 ---
+### Função definida pelo programador
+
 <img src="./figs-function/Funcoes-03.png" width="100%">
 
 ---
 ## Funções com parâmetros
 
+- Impressão do título pode ser definida como função.
+- Nome da seção do cardápio pode ser passado na chamada da função.
+
 <img src="./figs-function/Funcoes-04.png" width="100%">
 
 ---
+## Função imprimeTitulo(texto)
+
 <img src="./figs-function/Funcoes-05.png" width="100%">
 
 ---
@@ -61,6 +70,8 @@ Programa (sem funções):
 <img src="./figs-function/Funcoes-07.png" width="100%">
 
 ---
+# Função preco_grande(preco)
+
 <img src="./figs-function/Funcoes-08.png" width="100%">
 
 ---
