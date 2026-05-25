@@ -32,7 +32,7 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
    - [Complemento: conceitos](03c-repeticao-conceitos)
 - [Exercícios de fixação (for/while)](ex-for-while)
 - [Listas](04-listas)
-- [Funções](https://docs.google.com/presentation/d/1WwM1eyjoHY1AjlFB-QMLRkpf282d8reQ_gSj32hWo-k/edit)
+- [Funções](05-funcoes)
 
 <!--
 - [Listas](https://docs.google.com/presentation/d/1CwoiceFgppt3yvQ5udZ4GjHmx9WY7ORTbUjNfC-asrs/edit)
