@@ -27,13 +27,23 @@ Python fornece várias funções prontas para serem usadas: input(), sqrt(), len
 
 ---
 
-## Exemplo de chamada de função
+## Exemplos de chamada de função
 
+- Chamada de Funções pré-definidas
 
 ```python
 >>> x = sqrt(9)
 >>> len([0,1,2,3,4])
 >>> int(2.0)
+```
+
+- Bibliotecas de funções
+   - uso de `import`
+
+```python
+import random
+
+random.randint(0, 60) 
 ```
 
 ---
