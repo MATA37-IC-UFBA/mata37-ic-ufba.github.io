@@ -11,11 +11,33 @@ template: inverse
 {% include_relative footer.txt %}
 
 ---
+## Funções
 
-<img src="./figs-function/Funcoes-01.png" width="100%">
+Funções são blocos de código que podem ser chamados em outros pontos do programa. 
+
+- Na `chamada de função` (_function call_), a execução prossegue no primeiro comando
+de seu bloco de código.
+
+- Na chamada de função, pode-se passar valores para uso durante sua execução. 
+
+- Ao final de sua execução, a função pode retornar um valor
+e o controle retorna para o `chamador` (_caller_).
+
+### Exemplo de chamadas de função
+
+Python fornece várias funções prontas para serem usadas: 
+- input(), sqrt(), len(), int()... 
+
+```python
+>>> x = sqrt(9)
+>>> len([0,1,2,3,4])
+>>> int(2.0)
+```
 
 ---
 ## Funções simples 
+
+Programa (sem funções): 
 
 <img src="./figs-function/Funcoes-02.png" width="100%">
 
