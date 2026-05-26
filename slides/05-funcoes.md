@@ -14,31 +14,45 @@ template: inverse
 ## Funções
 
 Funções são blocos de código que podem ser chamados em outros pontos do programa. 
+A `chamada de função` (_function call_) é uma instrução composta 
+pelo nome da função seguido de uma lista de argumentos entre parênteses.
 
-- Na `chamada de função` (_function call_), a execução prossegue no primeiro comando
+- A partir da chamada de uma função, a execução prossegue no primeiro comando
 de seu bloco de código.
 
-- Na chamada de função, pode-se passar valores para uso durante sua execução. 
+- Na chamada de função, pode-se passar `argumentos` para uso durante sua execução,
+ podendo ser qualquer tipo de expressão, inclusive chamadas de função.
+
+- Dentro da função, os argumentos são atribuídos a variáveis chamadas `parâmetros`.
 
 - Ao final de sua execução, a função pode retornar um valor
 e o controle retorna para o `chamador` (_caller_).
 
-Python fornece várias funções prontas para serem usadas: input(), sqrt(), len(), int()... 
-
 ---
+## Exemplo
 
-## Exemplos de chamada de função
-
-- Chamada de Funções pré-definidas
+Python fornece várias funções prontas para serem usadas: 
+type(), input(), len(), int()... 
 
 ```python
->>> x = sqrt(9)
+>>> type(100)
+<class 'int'>
+```
+
+- O nome da função é `type`
+- A expressão entre parênteses é chamada de `argumento da função`. 
+- Para esta função, o resultado é o tipo do argumento.
+
+---
+## Chamada de funções
+
+```python
+>>> x = math.sqrt(9) // requer módulo math
 >>> len([0,1,2,3,4])
 >>> int(2.0)
 ```
 
-- Bibliotecas de funções
-   - uso de `import`
+- Módulos são coleções de funções que podem ser `importados`
 
 ```python
 import random
@@ -47,7 +61,16 @@ random.randint(0, 60)
 ```
 
 ---
-## Funções simples 
+## Função definida pelo programador
+
+```python
+def <nome> (<0 ou mais parâmetros>): 
+    <corpo da função>
+    return <valor>
+```
+---
+
+## Exemplos 
 
 ### Programa (sem funções)
 
@@ -69,6 +92,8 @@ random.randint(0, 60)
 ---
 ## Função imprimeTitulo(texto)
 
+- O parâmetro é `texto`.
+
 <img src="./figs-function/Funcoes-05.png" width="100%">
 
 ---
@@ -77,12 +102,14 @@ random.randint(0, 60)
 ---
 ## Funções que retornam um valor
 
-<img src="./figs-function/Funcoes-07.png" width="100%">
+<img src="./figs-function/Funcoes-07.png" width="110%">
 
 ---
-# Função preco_grande(preco)
+## Função preco_grande(preco)
 
-<img src="./figs-function/Funcoes-08.png" width="100%">
+<img src="./figs-function/Funcoes-08.png" width="110%">
+
+- Implemente uma função `imprimeCardapio()`
 
 ---
 
