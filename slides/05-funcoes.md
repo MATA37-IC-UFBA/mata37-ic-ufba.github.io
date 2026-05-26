@@ -131,6 +131,23 @@ exceto se a mesma for declarada como `global` no corpo da função.
 
 ---
 
+## Variáveis globais
+
+```python
+y = 1
+
+def teste(x):
+    global y  # Declare y como uma variável global
+    print(x)
+    y = 20  # Agora a atribuição afeta y global
+    
+print(y)
+teste(10) 
+print(y)
+```
+
+---
+
 ## Sobre o uso de variáveis globais
 
 Usar variáveis globais é muitas vezes considerado **má prática de programação**.
