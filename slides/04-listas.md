@@ -8,6 +8,8 @@ template: inverse
 
 # Listas em Python
 
+Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original usado como base para estes slides.
+
 {% include_relative footer.txt %}
 
 ---

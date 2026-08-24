@@ -77,24 +77,25 @@ Documentação de programas. Teste de programas. Análise de resultados.
 - Uso da plataforma JUDE
    - Exercícios com correção automática
 - Aulas práticas e teóricas
+- Exercícios em laboratório
 
 ---
 
 ## Por Que Python é Perfeita para Iniciantes
 
 - Sintaxe simples como português: `print("Olá, Salvador!")`.
-- Comunidade ativa em fóruns brasileiros e ferramentas gratuitas como Google Colab.
+- Comunidade ativa em fóruns brasileiros e ferramentas gratuitas.
 
 - Python domina 70% dos empregos em programação no Brasil, abrindo portas em TI, finanças e pesquisa.
 - Python é usada por Google, NASA e startups brasileiras.
 
 ---
 
-## Avaliação
+## Avaliações
 
-- Listas de exercícios
-- Três Provas
-- Frequência às aulas
+- Listas de exercícios de programação (25% total)
+- Três Provas (pesos 15%, 20%, 25%)
+- Exercícios em sala (peso 15%)
 
 --- 
 
@@ -102,7 +103,7 @@ Documentação de programas. Teste de programas. Análise de resultados.
 
 - Respeito
 - Dedicação ao curso
-> Realização efetiva das tarefas
+- Realização efetiva das tarefas, sem cópias ou uso inadequado de ferramentas de IA.
 
 ---
 

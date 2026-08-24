@@ -26,7 +26,7 @@ Um **algoritmo** é uma sequência de passos bem definidos para resolver um prob
 <!-- Na computação, algoritmos transformam valores de entrada em valores de saída (como funções). -->
 
 ---
-# Troca de Pneu Furado
+# Troca de Pneu Furado (no século XX)
 
 ```
 Pare em um local seguro. 

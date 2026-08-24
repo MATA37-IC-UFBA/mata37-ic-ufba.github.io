@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Disciplinas
-date:   2026-03-09 15:35:00 -0300
+date:   2026-08-24 08:51:00 -0300
 features: []
 ---
 

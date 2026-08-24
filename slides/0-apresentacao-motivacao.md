@@ -17,7 +17,7 @@ Bem-vindo ao curso de Introdução à Lógica de Programação com Python!
 ## Por Que Aprender Programação?
 
 Programação é como dar instruções precisas a um GPS: 
-algoritmos guiam soluções eficientes para problemas complexos, de apps a IA. 
+algoritmos guiam soluções eficientes para problemas complexos, dos apps à IA. 
 Python simplifica isso com sintaxe clara, usada por Google, NASA e startups brasileiras. 
 
 Você poderá criar jogos, analisar dados e automatizar tarefas.
@@ -39,12 +39,12 @@ Python domina 70% dos empregos em programação no Brasil, abrindo portas em TI,
 ## Por Que Python é Perfeita para Iniciantes
 
 Sintaxe simples como português: `print("Olá, Salvador!")` roda instantaneamente. 
-Comunidade ativa em fóruns brasileiros e ferramentas gratuitas como Google Colab. 
+Comunidade ativa em fóruns brasileiros e ferramentas gratuitas.
 
 ## Plano do Curso
 
 - **Aulas Semanais**: Teoria + coding ao vivo + exercícios.
-- **Avaliação**: Exercícios e Provas.
+- **Avaliação**: Listas de exercícios no Jude, exercícios em sala e Provas.
 - **Ferramentas**: Python e JUDE.
 
 Fontes:
@@ -116,12 +116,10 @@ Documentação de programas. Teste de programas. Análise de resultados.
 
 ## Avaliação
 
-- Listas de exercícios
+- Listas de exercícios para JUDE
 - Três Provas
+- Exercícios em sala
 - Frequência às aulas
-
-## Código de conduta
-
 
 
 ---

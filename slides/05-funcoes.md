@@ -8,6 +8,9 @@ template: inverse
 
 # Funções em Python
 
+Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original usado como bas
+e para estes slides.
+
 {% include_relative footer.txt %}
 
 ---
