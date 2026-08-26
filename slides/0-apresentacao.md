@@ -11,9 +11,10 @@ template: inverse
 ## Objetivos
 
 Reunir pessoas para:
+
+- Resolver problemas através programas (raciocínio computacional)
 - Aprender a construir programas de computador.
 - Escrever pequenos programas de computador na linguagem Python
-- Resolver problemas através programas (raciocínio computacional)
 
 ---
 
@@ -59,6 +60,16 @@ Programas implementam soluções eficientes para problemas complexos, de apps a 
 
 ---
 
+## Por Que Python é Perfeita para Iniciantes? 
+
+- Sintaxe simples como português: `print("Olá, Salvador!")`.
+- Comunidade ativa em fóruns brasileiros e ferramentas gratuitas.
+
+- Python domina 70% dos empregos em programação no Brasil, abrindo portas em TI, finanças e pesquisa.
+- Python é usada por Google, NASA e startups brasileiras.
+
+---
+
 ## Ementa
 
 Introdução aos princípios de programação. 
@@ -81,21 +92,13 @@ Documentação de programas. Teste de programas. Análise de resultados.
 
 ---
 
-## Por Que Python é Perfeita para Iniciantes
-
-- Sintaxe simples como português: `print("Olá, Salvador!")`.
-- Comunidade ativa em fóruns brasileiros e ferramentas gratuitas.
-
-- Python domina 70% dos empregos em programação no Brasil, abrindo portas em TI, finanças e pesquisa.
-- Python é usada por Google, NASA e startups brasileiras.
-
----
-
 ## Avaliações
 
 - Listas de exercícios de programação (25% total)
 - Três Provas (pesos 15%, 20%, 25%)
 - Exercícios em sala (peso 15%)
+
+- Frequência às aulas
 
 --- 
 
@@ -110,8 +113,9 @@ Documentação de programas. Teste de programas. Análise de resultados.
 # Leituras
 
 - Allen B. Downey.  (2ª ed.). Disponível em https://penseallen.github.io/PensePython2e/
+- Allen B. Downey.  (3ª ed.). Disponível em https://panda.ime.usp.br/pensepy/static/pensepy/
 - Tradução do livro How to Think Like a Computer Scientist: Interactive Version.
 Copyright (C) Brad Miller, David Ranum, Jeffrey Elkner, Peter Wentworth, Allen B. Downey, Chris Meyers, and Dario Mitchell. Disponível em https://panda.ime.usp.br/pensepy/static/pensepy/
 
-
 {:/}
+
