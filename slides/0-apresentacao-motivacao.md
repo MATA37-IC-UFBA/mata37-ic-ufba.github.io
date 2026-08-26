@@ -16,7 +16,7 @@ Bem-vindo ao curso de Introdução à Lógica de Programação com Python!
 
 ---
 
-## Por Que Aprender Programação?
+## Por que aprender Programação?
 
 Programação é como dar instruções precisas a um GPS: 
 algoritmos guiam soluções eficientes para problemas complexos, dos apps à IA. 
@@ -59,8 +59,6 @@ Comunidade ativa em fóruns brasileiros e ferramentas gratuitas.
 - **Avaliação**: Listas de exercícios no Jude, exercícios em sala e Provas.
 - **Ferramentas**: Python e JUDE.
 
-Fontes:
-[1] Programação em Python https://rodrigorgs.github.io/aulas/ilp/
 
 ---
 
@@ -172,7 +170,6 @@ Documentação de programas. Teste de programas. Análise de resultados.
 # Leituras
 
 - Allen B. Downey.  (2ª ed.). Disponível em https://penseallen.github.io/PensePython2e/
-- Allen B. Downey.  (3ª ed.). Disponível em https://panda.ime.usp.br/pensepy/static/pensepy/
 - Tradução do livro How to Think Like a Computer Scientist: Interactive Version.
 Copyright (C) Brad Miller, David Ranum, Jeffrey Elkner, Peter Wentworth, Allen B. Downey, Chris Meyers, and Dario Mitchell. Disponível em https://panda.ime.usp.br/pensepy/static/pensepy/
 
