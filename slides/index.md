@@ -35,10 +35,10 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
 - [Funções](05-funcoes)
 - [Ordenação](https://docs.google.com/presentation/d/1iLvHy1G085masAq-_qO2Ml4hMOSCcYEmruCf_gW2U_Y/edit)
 - [Matrizes](06-matrizes)
+- [Strings](https://docs.google.com/presentation/d/189Y5hcDkxrv_O_MBbK816_ERWpE4hQMJIeLS3OFrNAQ/edit)
 
 <!--
 - [Listas](https://docs.google.com/presentation/d/1CwoiceFgppt3yvQ5udZ4GjHmx9WY7ORTbUjNfC-asrs/edit)
-- [Strings](https://docs.google.com/presentation/d/189Y5hcDkxrv_O_MBbK816_ERWpE4hQMJIeLS3OFrNAQ/edit)
 - [Dicionários](https://docs.google.com/presentation/d/1nUkODdvlRfckESn8dOYoD-LUw8qMPGvX7H30NsnToos/edit)
 - [Matrizes](https://docs.google.com/presentation/d/1uqPeYzrX8k_jQJSxAdn5zwnX4agrADUbwHzgZXJtbIo/edit)
 - [Busca binária](https://docs.google.com/presentation/d/1BEviB3aF6jBwchBOq7UxBt13fbA1NxWcFFUvUpPTZAo/edit)
@@ -58,21 +58,5 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
 <!--
 - [Estruturas de repetição (while/for)](https://docs.google.com/presentation/d/1fIC4ntPE-z-rJNGRwaMYT6U64yitrdRe7SORdhAXNDo/edit?usp=sharing)
 -->
-
-## Aprendizadem Ativa
-
-| Módulo | Aulas | Tópicos | Técnica de destaque |
-|---|---|---|---|
-| 0. Ambientação | 2 | Lógica, ambiente Python/IDE (Thonny ou Jupyter/Colab), primeiro programa, entrada/saída | Live coding + diagnóstico de nivelamento |
-| 1. Variáveis, tipos e expressões | 3 | Tipos primitivos, operadores, conversões | Parsons problems + Peer Instruction |
-| 2. Estruturas condicionais | 3 | if/elif/else, operadores lógicos | Peer Instruction intensivo (armadilhas de precedência) |
-| 3. Estruturas de repetição | 4 | for, while, break/continue | Debug guiado em trios (POGIL) |
-| 4. Funções e modularização | 4 | Parâmetros, retorno, escopo, decomposição de problemas | Pair programming com papéis alternados |
-| 5. Listas e strings | 4 | Manipulação, fatiamento, métodos | Parsons → completar → escrever |
-| 6. Dicionários e tuplas | 2 | Estruturas de dados básicas | Prática guiada em trios |
-| 7. Arquivos e exceções | 2 | Leitura/escrita, try/except | Live coding com erros propositais |
-| 8. Recursão | 2 | Casos base, pilha de chamadas | Peer Instruction + visualização em quadro |
-| 9. Revisão e prova de bancada | 2 | Consolidação | Peer Instruction em modo revisão |
-| 10. Projeto integrador | 3–4 | Projeto final em trios | Demo day / apresentação |
 
 
