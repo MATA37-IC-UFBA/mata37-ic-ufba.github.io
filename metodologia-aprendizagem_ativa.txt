@@ -1,0 +1,134 @@
+# Aprendizagem Ativa para Lógica de Programação em Python
+
+### Proposta metodológica — 60h, aulas de 110 min (2x/semana), laboratório, 45 alunos + 1 monitor
+
+## Panorama e premissas
+
+Com 60 horas em aulas de 110 minutos, duas vezes por semana, o curso comporta aproximadamente **28 a 33 encontros** (dependendo de a "hora" ser hora-relógio ou hora-aula de 50 min), o equivalente a um semestre letivo de 14–16 semanas. Essa é a unidade de planejamento usada abaixo: um conjunto de ~30 aulas organizadas em módulos, cada uma seguindo um mesmo template ativo de 110 minutos.
+
+A proposta combina cinco metodologias com evidência consistente na literatura de educação em Ciência da Computação, escolhidas para funcionar bem simultaneamente num laboratório com bancadas fixas de computador:
+
+- **Peer Instruction (Instrução por Pares)** — perguntas conceituais de múltipla escolha, votação, discussão em duplas e revotação. Estudos multi-institucionais mostram redução de até 61% nas taxas de reprovação e ganhos de ~5 pontos percentuais em provas finais idênticas comparado a aulas expositivas puras ([CACM](https://cacm.acm.org/opinion/success-in-introductory-programming/), [ACM SIGCSE](https://dl.acm.org/doi/10.1145/2839509.2844642)).
+
+- **Live coding participativo** — a professora escreve código ao vivo, narrando o raciocínio (inclusive erros e depuração), enquanto os alunos digitam o mesmo código em suas máquinas. É recomendado como prática superior a slides estáticos ([PMC — Ten quick tips](https://pmc.ncbi.nlm.nih.gov/articles/PMC7482837/), [Carpentries](https://carpentries.github.io/instructor-training/17-live.html)).
+
+- **Parsons Problems** (reorganizar blocos de código embaralhados) como porta de entrada para exercícios de escrita livre — reduzem carga cognitiva ligada à sintaxe, são resolvidos ~50% mais rápido que escrever do zero e produzem ganho de aprendizagem equivalente, sendo especialmente úteis para estudantes com baixa autoeficácia em programação ([Berkeley EECS](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-88.pdf), [arXiv 2311.18115](https://arxiv.org/html/2311.18115v1)).
+
+- **Trabalho em pares/trios estruturado (pair programming / papéis POGIL)** — associado a maior taxa de aprovação, maior retenção na carreira de CS e programas de melhor qualidade em CS1 ([ACM SIGCSE 2002](https://dl.acm.org/doi/10.5555/776816.776899), [Computer.org meta-análise](https://www.computer.org/csdl/journal/ts/2011/04/tts2011040509/13rRUxC0SQq)). É importante registrar uma ressalva: um estudo randomizado recente do NSF encontrou efeito nulo ou levemente negativo quando pares são formados aleatoriamente e sem estrutura, sobretudo com grande disparidade de experiência prévia entre os parceiros ([NSF/Journal of Research on Educational Effectiveness](https://par.nsf.gov/servlets/purl/10281045)) — por isso, abaixo, recomendo pareamento **deliberado** (por nível similar) e com papéis alternados, não pares livres.
+
+- **POGIL (Process-Oriented Guided Inquiry Learning)** — trios com papéis definidos (facilitador, registrador, relator) resolvendo roteiros guiados; a professora atua como facilitadora circulante, não expositora. Evidência mostra desempenho superior e maior retenção de conteúdo após períodos de pausa (ex.: recesso), especialmente para estudantes com desempenho médio/baixo ([ACM — POGIL in CS1](https://dl.acm.org/doi/abs/10.1145/3478431.3499296), [cspogil.org](https://cspogil.org/research/2012/kussmaul-2012-cs-swe/)).
+
+A combinação dessas técnicas — em vez de uma só — é o que a literatura aponta como mais eficaz: "pair programming, peer instruction e outras técnicas ativas têm impacto positivo isoladamente, e combinadas têm efeito dramático" ([CACM](https://cacm.acm.org/opinion/success-in-introductory-programming/)).
+
+## Estrutura padrão de uma aula de 110 minutos
+
+Use este roteiro como padrão em praticamente todas as aulas, ajustando os minutos por bloco conforme o tópico:
+
+| Bloco | Duração | O que acontece |
+|---|---|---|
+| 1. Ativação | 8 min | Pergunta-gancho ou 1 questão de recordação da aula anterior (Mentimeter/Kahoot/papel). Sem checar frequência ainda — serve para "ligar o cérebro". |
+| 2. Live coding participativo | 20 min | Você projeta a tela e escreve código ao vivo sobre o novo conceito; alunos digitam junto na própria máquina. Erros de digitação e mensagens de erro são propositalmente explorados e depurados em tempo real. |
+| 3. Peer Instruction | 12 min | 1–2 perguntas conceituais de múltipla escolha (armadilhas típicas). Votação individual → 2 min de discussão em dupla → revotação → você revela e explica o porquê da resposta certa e das erradas. |
+| 4. Prática guiada em duplas/trios | 50 min | Sequência de exercícios com dificuldade crescente: (a) Parsons problem, (b) completar código com lacunas, (c) escrever pequena função do zero, (d) depurar código com bug plantado. Papéis alternam a cada ~15 min (quem digita vs. quem lê em voz alta e questiona). |
+| 5. Socialização de soluções | 12 min | 1–2 duplas mostram sua solução (ou um erro interessante) no projetor; turma comenta. Normaliza o erro como parte do aprendizado. |
+| 6. Fechamento | 8 min | "Exit ticket": pergunta rápida (Google Forms/papel) — "o que ficou mais confuso hoje?" (muddiest point) + prévia da próxima aula. |
+
+Esse padrão preserva ~20 min de exposição direta (abaixo do limite recomendado de atenção sustentada) e mais de 70% do tempo em atividade do estudante.
+
+## Como organizar 45 alunos + 1 monitor no laboratório
+
+- **Formação dos grupos**: aplique um diagnóstico rápido na primeira semana (ex.: 5 perguntas sobre lógica/experiência prévia) e forme **15 trios** (ou 22 duplas + 1 trio) balanceados por nível — evite juntar apenas iniciantes com apenas avançados isoladamente; misture de forma deliberada, não aleatória, e reserve papéis rotativos (facilitador/redator/relator no estilo POGIL) para que ninguém "carregue" o grupo sozinho.
+- **Rotação**: troque a composição dos grupos a cada 3–4 semanas (ao fim de cada módulo), preservando alguma continuidade dentro do módulo para not perder o ritmo de trabalho.
+- **Cobertura física do laboratório**: com você e o monitor circulando, cada um cobre ~7–8 grupos. Adote um sistema visual de sinalização na bancada (ex.: copo/cartão verde = "seguindo bem", amarelo = "dúvida pontual, atender quando possível", vermelho = "travado, atender primeiro"). Isso evita fila de mãos levantadas e prioriza quem está travado.
+- **Papel do monitor**:
+  - Durante a aula: atende preferencialmente o sinal vermelho, faz perguntas socráticas em vez de dar a resposta pronta.
+  - Antes da aula: revisa e ajusta o roteiro de exercícios/Parsons problems com você.
+  - Depois da aula: corrige/reforça a correção automática dos exercícios (autograder), compila as dúvidas mais frequentes dos exit tickets, e conduz um horário de atendimento extra semanal (útil sobretudo para quem ficou no vermelho com frequência).
+  - Periodicamente conduz uma "aula de reforço" opcional para o grupo que mais acumula dificuldade, sem estigmatizar (convite aberto, foco em prática guiada).
+
+## Avaliação formativa contínua (em vez de só provas)
+
+- **Perguntas de Peer Instruction** valendo pontos de participação simbólicos (não de acerto) — incentiva engajamento sem punir erro.
+- **Exercícios de laboratório autocorrigidos**: use um juiz online (no Brasil, o [Beecrowd/URI Online Judge](https://www.beecrowd.com.br/) é amplamente adotado em cursos de introdução à programação) ou GitHub Classroom com testes automatizados (`pytest`) — libera você e o monitor para atender dúvidas em vez de corrigir sintaxe manualmente, e dá feedback imediato ao estudante.
+- **Exit tickets semanais** (muddiest point) — ajustam a aula seguinte às dúvidas reais da turma.
+- **Provas práticas de bancada** (2–3 no semestre, no próprio laboratório, com consulta a material próprio) em vez de prova teórica pura — mais alinhado ao que se pratica em aula.
+- **Projeto integrador final** (últimas 3–4 aulas): um pequeno programa/jogo em Python que combine os conceitos do módulo (ex.: jogo de forca, calculadora de notas, gerador de relatórios a partir de arquivo CSV), apresentado pelas duplas/trios em formato curto ("demo day").
+- **Avaliação por pares dentro do grupo** (curta, ao fim de cada módulo): cada estudante avalia a colaboração do parceiro — ajuda a identificar grupos disfuncionais cedo.
+
+## Toque de gamificação (dosado)
+
+A evidência é consistente em mostrar ganhos de motivação e engajamento com gamificação leve, com efeitos sobre desempenho mais discretos e por vezes só percebidos ao final do curso ([ERIC EJ1380425](https://eric.ed.gov/?id=EJ1380425), [PeerJ CS](https://peerj.com/articles/cs-2310.pdf)); *rankings públicos individuais* podem desmotivar quem está atrás, então prefira:
+
+- **Badges por módulo** (ex.: "Domador de Loops", "Caçador de Bugs") em vez de ranking individual público.
+- **Pontuação por equipe** (trio), não individual, reduzindo competição predatória.
+- **"Code battle" opcional e sem nota** periódico: 15 minutos, quem resolve o desafio do dia de forma mais elegante/curta ganha um badge simbólico.
+- Usar o próprio ranking gamificado do Beecrowd/URI como reforço extra-classe, não como parte da nota.
+
+## Plano modular sugerido (≈ 30 aulas / 60h)
+
+| Módulo | Aulas | Tópicos | Técnica de destaque |
+|---|---|---|---|
+| 0. Ambientação | 2 | Lógica, ambiente Python/IDE (Thonny ou Jupyter/Colab), primeiro programa, entrada/saída | Live coding + diagnóstico de nivelamento |
+| 1. Variáveis, tipos e expressões | 3 | Tipos primitivos, operadores, conversões | Parsons problems + Peer Instruction |
+| 2. Estruturas condicionais | 3 | if/elif/else, operadores lógicos | Peer Instruction intensivo (armadilhas de precedência) |
+| 3. Estruturas de repetição | 4 | for, while, break/continue | Debug guiado em trios (POGIL) |
+| 4. Funções e modularização | 4 | Parâmetros, retorno, escopo, decomposição de problemas | Pair programming com papéis alternados |
+| 5. Listas e strings | 4 | Manipulação, fatiamento, métodos | Parsons → completar → escrever |
+| 6. Dicionários e tuplas | 2 | Estruturas de dados básicas | Prática guiada em trios |
+| 7. Arquivos e exceções | 2 | Leitura/escrita, try/except | Live coding com erros propositais |
+| 8. Recursão | 2 | Casos base, pilha de chamadas | Peer Instruction + visualização em quadro |
+| 9. Revisão e prova de bancada | 2 | Consolidação | Peer Instruction em modo revisão |
+| 10. Projeto integrador | 3–4 | Projeto final em trios | Demo day / apresentação |
+
+Ajuste o número exato de aulas por módulo ao calendário real da disciplina (feriados, semana de provas institucionais etc.).
+
+## Exemplo de plano detalhado (aula de Condicionais)
+
+1. **Ativação (8 min)**: pergunta no Mentimeter — "o que este trecho de código imprime?" com um `if/elif` propositalmente ambíguo.
+2. **Live coding (20 min)**: construir, ao vivo, um pequeno classificador de notas (aprovado/recuperação/reprovado) usando `if/elif/else`, incluindo um erro de indentação corrigido na hora.
+3. **Peer Instruction (12 min)**: questão sobre `and`/`or` com curto-circuito — votação, discussão em dupla, revotação, explicação.
+4. **Prática em trios (50 min)**: (a) Parsons problem para reorganizar um `if` aninhado; (b) completar lacunas em um verificador de triângulo; (c) escrever do zero um programa de classificação de IMC; (d) depurar um trecho com bug de operador (`=` em vez de `==`).
+5. **Socialização (12 min)**: um trio apresenta sua solução do IMC; discussão sobre abordagens alternativas.
+6. **Fechamento (8 min)**: exit ticket — "qual foi a parte mais confusa sobre condicionais aninhadas hoje?".
+
+## Ferramentas sugeridas
+
+- **Ambiente de código**: Thonny (leve, bom para iniciantes) ou Google Colab/Jupyter (sem instalação, roda no navegador do laboratório).
+- **Enquetes/Peer Instruction**: Mentimeter, Kahoot ou Slido (perguntas em tempo real, resultado imediato).
+- **Exercícios autocorrigidos**: Beecrowd/URI Online Judge (referência no Brasil) ou GitHub Classroom + `pytest`.
+- **Exit tickets**: Google Forms (rápido, dados agregáveis semana a semana).
+- **Parsons problems**: podem ser criados manualmente (cartões de código embaralhados em papel funcionam tão bem quanto ferramentas digitais) ou usando geradores como o [Parsons Problem tool do CS Circles/Runestone](https://runestone.academy/).
+
+## Como começar
+
+Sugiro validar essa estrutura com um piloto de 2–3 semanas (módulos 0–1) antes de aplicá-la ao curso inteiro, coletando os exit tickets e um breve feedback qualitativo dos alunos sobre o ritmo dos blocos — é a forma mais rápida de calibrar os tempos de cada etapa à realidade da turma de 45 alunos.
+
+## Referências
+
+- CACM — Success in Introductory Programming: What Works? — https://cacm.acm.org/opinion/success-in-introductory-programming/
+- Multi-institutional Study of Peer Instruction in Introductory Computing (ACM) — https://dl.acm.org/doi/10.1145/2839509.2844642
+- Ten quick tips for teaching with participatory live coding (PMC) — https://pmc.ncbi.nlm.nih.gov/articles/PMC7482837/
+- Carpentries — Live Coding is a Skill — https://carpentries.github.io/instructor-training/17-live.html
+- Exploring the Use of Parsons Problems for Learning a New Programming Language (UC Berkeley EECS) — https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-88.pdf
+- Understanding the Effects of Using Parsons Problems to Scaffold Code Writing (arXiv) — https://arxiv.org/html/2311.18115v1
+- Improving the CS1 experience with pair programming (ACM) — https://dl.acm.org/doi/10.5555/776816.776899
+- Empirical Studies of Pair Programming for CS/SE Teaching (IEEE Computer Society) — https://www.computer.org/csdl/journal/ts/2011/04/tts2011040509/13rRUxC0SQq
+- Pair programming cluster-randomized trial (NSF / Journal of Research on Educational Effectiveness) — https://par.nsf.gov/servlets/purl/10281045
+- POGIL in CS1: Evidence for Student Learning and Belonging (ACM) — https://dl.acm.org/doi/abs/10.1145/3478431.3499296
+- Process Oriented Guided Inquiry Learning for CS/SWE (cspogil.org) — https://cspogil.org/research/2012/kussmaul-2012-cs-swe/
+- Effects of gamification on motivation, engagement and performance (ERIC EJ1380425) — https://eric.ed.gov/?id=EJ1380425
+- Level up your coding: systematic review of gamified learning in programming education (PeerJ) — https://peerj.com/articles/cs-2310.pdf
+- Beecrowd / URI Online Judge — https://www.beecrowd.com.br/
+
+---
+
+### Programação em Par
+
+A programação em par é uma prática que surgiu na indústria como um método ágil. 
+A ideia é ter duas pessoas no teclado: 
+uma atuando como "piloto" (*driver*) e a outra como "observador" ou "navegador" (*navigator*). 
+Os integrantes da dupla alternam funções regularmente durante o trabalho. 
+Existem evidências significativas de que ter duas pessoas no teclado aumenta 
+a produtividade na indústria, mas será que isso ajuda em sala de aula?
+
+

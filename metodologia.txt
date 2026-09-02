@@ -1,0 +1,22 @@
+
+- Estrutura de aula (110 min): 
+Um roteiro fixo de 6 blocos.
+   - ativação (8min) 
+   - live coding participativo (20min) 
+   - Peer Instruction com votação/discussão em dupla (12min) 
+   - prática guiada em trios com dificuldade crescente (50min) 
+   - socialização de soluções (12min) 
+   - fechamento com “exit ticket” (8min). 
+
+Mais de 70% do tempo fica com o estudante ativo.
+
+- 45 alunos + 1 monitor: sugiro 15 trios balanceados por nível (formados via diagnóstico na primeira semana, não aleatoriamente — um estudo do NSF mostrou que pareamento aleatório com grande disparidade de experiência pode até prejudicar), rotacionados a cada módulo. Com você e o monitor circulando, cada um cobre ~7-8 grupos; um sistema de sinalização (verde/amarelo/vermelho na bancada) evita fila de mãos levantadas.[ed]
+
+
+- Avaliação contínua: exercícios autocorrigidos (Beecrowd/URI, muito usado no Brasil, ou GitHub Classroom + pytest), perguntas de Peer Instruction valendo participação, exit tickets semanais, provas práticas de bancada em vez de provas teóricas, e um projeto integrador final com “demo day”.
+
+- Gamificação dosada: badges por módulo e pontuação por equipe em vez de ranking individual público, que a literatura mostra poder desmotivar quem fica atrás.
+
+O documento inclui um plano modular para as ~30 aulas do semestre (variáveis, condicionais, repetição, funções, listas/strings, dicionários, arquivos/exceções, recursão, projeto final), um exemplo de aula detalhada sobre condicionais, ferramentas recomendadas e todas as referências citadas.
+
+
