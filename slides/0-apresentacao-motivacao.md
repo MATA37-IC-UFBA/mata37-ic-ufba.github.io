@@ -57,8 +57,7 @@ Comunidade ativa em fóruns brasileiros e ferramentas gratuitas.
 
 - **Aulas Semanais**: Teoria + coding ao vivo + exercícios.
 - **Avaliação**: Listas de exercícios no Jude, exercícios em sala e Provas.
-- **Ferramentas**: Python e JUDE.
-
+- **Ferramentas**: Python Tutor e JUDE.
 
 ---
 
@@ -149,10 +148,9 @@ Documentação de programas. Teste de programas. Análise de resultados.
 
 ## Avaliações
 
-- Listas de exercícios de programação (25% total)
+- Listas de exercícios de programação (15% total)
 - Três Provas (pesos 15%, 20%, 25%)
-- Exercícios em sala (peso 15%)
-
+- Projeto final (peso 25%)
 
 - Frequência às aulas
 
