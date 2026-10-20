@@ -32,10 +32,11 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
    - [Complemento: conceitos](03c-repeticao-conceitos)
 - [Exercícios de fixação (for/while)](ex-for-while)
 - [Listas](04-listas)
+- [Sequências](04b-listas-sequencias-strings)
+- [Strings](https://docs.google.com/presentation/d/189Y5hcDkxrv_O_MBbK816_ERWpE4hQMJIeLS3OFrNAQ/edit)
 - [Funções](05-funcoes)
 - [Ordenação](https://docs.google.com/presentation/d/1iLvHy1G085masAq-_qO2Ml4hMOSCcYEmruCf_gW2U_Y/edit)
 - [Matrizes](06-matrizes)
-- [Strings](https://docs.google.com/presentation/d/189Y5hcDkxrv_O_MBbK816_ERWpE4hQMJIeLS3OFrNAQ/edit)
 
 <!--
 - [Listas](https://docs.google.com/presentation/d/1CwoiceFgppt3yvQ5udZ4GjHmx9WY7ORTbUjNfC-asrs/edit)
