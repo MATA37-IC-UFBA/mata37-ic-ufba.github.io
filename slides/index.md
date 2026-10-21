@@ -37,8 +37,8 @@ pelo material original para este curso:
 - [Tipos](04-tipos)
 - [Sequências](04b-listas-sequencias-strings)
    - [Listas](04a-listas)
+   - [Strings](strings-em-python)
    - [Tuplas](04ab-tuplas)
-   - [Strings](https://docs.google.com/presentation/d/189Y5hcDkxrv_O_MBbK816_ERWpE4hQMJIeLS3OFrNAQ/edit)
 - [Funções](05-funcoes)
 - [Matrizes](06-matrizes)
 - Dicionários
