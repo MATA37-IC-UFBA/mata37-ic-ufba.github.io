@@ -8,8 +8,6 @@ template: inverse
 
 # Pedra, Papel e Tesoura
 
-{% include_relative footer.txt %}
-
 ---
 
 # Pedra, Papel e Tesoura

@@ -8,8 +8,6 @@ template: inverse
 
 # Pedra, Papel, Tesoura, Lagarto e Spock
 
-{% include_relative footer.txt %}
-
 ---
 
 # Pedra, Papel, Tesoura, Lagarto e Spock
