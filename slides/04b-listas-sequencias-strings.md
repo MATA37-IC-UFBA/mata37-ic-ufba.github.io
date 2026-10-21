@@ -8,15 +8,14 @@ template: inverse
 
 # Listas, Sequências e Strings
 
-## Estruturas de Dados Fundamentais: Conceitos, Diferenças e Aplicações
+São estruturas de dados fundamentais em python.
 
 ---
 
-# 1. Definições e Exemplos
+## Definições e Exemplos
 
----
+### O que é uma Sequência?
 
-## O que é uma Sequência?
 * **Definição**: Uma sequência é um termo genérico para uma coleção ordenada de elementos onde cada item possui uma posição fixa (índice).
 
 * **Características**:
@@ -29,7 +28,7 @@ template: inverse
 
 ---
 
-## O que é uma Lista?
+### O que é uma Lista?
 
 * **Definição**: Uma coleção ordenada e mutável de elementos que podem ser de tipos diferentes.
 
@@ -45,7 +44,7 @@ template: inverse
 
 ---
 
-## O que é uma String?
+### O que é uma String?
 
 * **Definição**: Uma sequência imutável de caracteres usada para representar texto.
 
@@ -54,6 +53,7 @@ template: inverse
   * Não pode ser alterada diretamente após a criação.
 
 * **Exemplo em Python**:
+
   ```python
   mensagem = "Olá, Mundo!"
   # mensagem[0] = "o" -> Gera um erro (imutável)
@@ -62,11 +62,11 @@ template: inverse
 
 ---
 
-# 2. Pontos em Comum e Diferenças
+## Pontos em Comum e Diferenças
 
 ---
 
-## Pontos em Comum 🤝
+### Pontos em Comum
 
 * **Ordenação**: Todos mantêm a ordem exata em que os elementos foram inseridos.
 
@@ -78,7 +78,7 @@ template: inverse
 
 ---
 
-## Tabela Comparativa 📊
+## Tabela Comparativa
 
 | Característica | Sequência (Conceito) | Lista | String |
 | :--- | :--- | :--- | :--- |
@@ -89,11 +89,7 @@ template: inverse
 
 ---
 
-# 3. Recomendações de Uso
-
----
-
-## Quando usar cada estrutura?
+## Recomendações de Uso
 
 ### Use Listas se:
 
@@ -107,7 +103,7 @@ template: inverse
 
 ---
 
-## Resumo de Boas Práticas 💡
+## Resumo de Boas Práticas
 
 * **Imutabilidade traz segurança**: Prefira estruturas imutáveis (como strings ou tuplas) quando os dados não devem mudar, evitando bugs colaterais.
 
