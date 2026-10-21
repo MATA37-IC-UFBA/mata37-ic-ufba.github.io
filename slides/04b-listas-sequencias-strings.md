@@ -6,21 +6,22 @@ title:
 {::nomarkdown}
 template: inverse
 
-# Listas, Sequências e Strings
+# Listas, Tuplas e Strings
 
 São estruturas de dados fundamentais em python.
 
+<img src="./figs/fig-sequencias.png" width="100%">
+
 ---
 
-## Definições e Exemplos
+## O que é uma Sequência?
 
-### O que é uma Sequência?
-
-* **Definição**: Uma sequência é um termo genérico para uma coleção ordenada de elementos onde cada item possui uma posição fixa (índice).
+* **Definição**: Uma sequência é um termo genérico 
+para uma coleção ordenada de elementos onde cada item possui uma posição fixa (índice).
 
 * **Características**:
+  * Sequências podem ser mutáveis ou imutáveis
   * O acesso aos elementos é feito via indexação (ex: `seq[0]`).
-  * Podem ser mutáveis ou imutáveis.
 
 * **Exemplos genéricos**: 
   * Progressões aritméticas (1, 3, 5, 7...)
@@ -28,7 +29,7 @@ São estruturas de dados fundamentais em python.
 
 ---
 
-### O que é uma Lista?
+## O que é uma Lista?
 
 * **Definição**: Uma coleção ordenada e mutável de elementos que podem ser de tipos diferentes.
 
@@ -44,7 +45,7 @@ São estruturas de dados fundamentais em python.
 
 ---
 
-### O que é uma String?
+## O que é uma String?
 
 * **Definição**: Uma sequência imutável de caracteres usada para representar texto.
 
@@ -62,11 +63,7 @@ São estruturas de dados fundamentais em python.
 
 ---
 
-## Pontos em Comum e Diferenças
-
----
-
-### Pontos em Comum
+## Pontos em Comum
 
 * **Ordenação**: Todos mantêm a ordem exata em que os elementos foram inseridos.
 
@@ -91,12 +88,12 @@ São estruturas de dados fundamentais em python.
 
 ## Recomendações de Uso
 
-### Use Listas se:
+Use Listas se:
 
 * Os dados precisam ser **alterados, ordenados ou atualizados** frequentemente.
 * Você precisa armazenar uma coleção de objetos complexos ou tipos variados.
 
-### Use Strings se:
+Use Strings se:
 
 * O objetivo for manipulação de **texto, leitura de arquivos ou exibição de mensagens**.
 * Você precisa de chaves seguras para dicionários/mapeamentos (devido à imutabilidade).
