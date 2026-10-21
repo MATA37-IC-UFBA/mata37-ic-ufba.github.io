@@ -120,7 +120,7 @@ nome = 'Flor d\'agua'
 print(nome)
 ```
 
-Saída: `Flor d'agua`
+- Saída: `Flor d'agua`
 
 --- 
 
@@ -130,7 +130,7 @@ World"
 print(saudacao)
 ```
 
-Saída: `Hello World`
+- Saída: `Hello World`
 
 --- 
 
@@ -139,7 +139,7 @@ s = "Hello \n World"
 print(s)
 ```
 
-Saída:
+- Saída:
 
 ```
 Hello 
@@ -153,7 +153,7 @@ s = "Hello \t World"
 print(s)
 ```
 
-Saída: `Hello 	 World`
+- Saída: `Hello 	 World`
 
 ---
 
@@ -249,11 +249,16 @@ A correspondência entre caracteres e números foi padronizada na chamada tabela
 
 ---
 
-![Tabela ASCII: códigos decimais e hexadecimais de 0 a 127 e seus caracteres correspondentes](imagens/tabela-ascii.png)
+Tabela ASCII: códigos decimais e hexadecimais de 0 a 127 e seus caracteres correspondentes.
+
+<img src="./imagens/tabela-ascii.png" width="100%">
 
 ---
 
-![Tabela Latin-1: códigos de 0 a 255 e seus caracteres correspondentes](imagens/tabela-latin1.png)
+Tabela Latin-1: códigos de 0 a 255 e seus caracteres correspondentes.
+
+<img src="./imagens/tabela-latin1.png"  width="100%">
+
 
 ---
 
