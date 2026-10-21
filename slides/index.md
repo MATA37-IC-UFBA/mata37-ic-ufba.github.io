@@ -3,7 +3,8 @@ layout: page
 title: Introdução à Lógica de Programação em Python
 ---
 
-Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para este curso:
+Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) 
+pelo material original para este curso:
 [Programação em Python](https://rodrigorgs.github.io/aulas/ilp/)
 
 - [Apresentação](0-apresentacao)
@@ -13,9 +14,10 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
 - [Plataformas de edição e programação](01e-plataformas)
 - [Padrões de entrada e saída](01d-entrada-saida-correcao)
 
-## Slides
+## Módulos
 
 - [Motivação](0-apresentacao-motivacao)
+   - Problemas 
 - [Introdução à programação](00a-intro-programacao)
    - [Exemplo](0-scratch-python)
 - [Introdução à linguagem Python](00b-intro-python)
@@ -32,13 +34,16 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
    - [Complemento: break/continue](03c-break-continue)
    - [Complemento: conceitos](03c-repeticao-conceitos)
 - [Exercícios de fixação (for/while)](ex-for-while)
-- [Hierarquia de Tipos](04-tipos)
+- [Tipos](04-tipos)
 - [Sequências](04b-listas-sequencias-strings)
-- [Listas](04a-listas)
-- [Strings](https://docs.google.com/presentation/d/189Y5hcDkxrv_O_MBbK816_ERWpE4hQMJIeLS3OFrNAQ/edit)
+   - [Listas](04a-listas)
+   - [Tuplas](04ab-tuplas)
+   - [Strings](https://docs.google.com/presentation/d/189Y5hcDkxrv_O_MBbK816_ERWpE4hQMJIeLS3OFrNAQ/edit)
 - [Funções](05-funcoes)
-- [Ordenação](https://docs.google.com/presentation/d/1iLvHy1G085masAq-_qO2Ml4hMOSCcYEmruCf_gW2U_Y/edit)
 - [Matrizes](06-matrizes)
+- Dicionários
+- Busca
+- [Ordenação](https://docs.google.com/presentation/d/1iLvHy1G085masAq-_qO2Ml4hMOSCcYEmruCf_gW2U_Y/edit)
 
 <!--
 - [Listas](https://docs.google.com/presentation/d/1CwoiceFgppt3yvQ5udZ4GjHmx9WY7ORTbUjNfC-asrs/edit)
@@ -47,7 +52,11 @@ Agradecimentos ao Prof. Rodrigo Souza (DCC-IC-UFBA) pelo material original para 
 - [Busca binária](https://docs.google.com/presentation/d/1BEviB3aF6jBwchBOq7UxBt13fbA1NxWcFFUvUpPTZAo/edit)
 -->
 
-### Exercícios de fixação
+### Problemas
+
+   - Pedra, papel e tesoura
+
+### Exercícios
 
 - [Introdução](ex-introducao)
 - [Condicionais (if/else)](ex-if)
