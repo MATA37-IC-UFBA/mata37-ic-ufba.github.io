@@ -127,9 +127,8 @@ print(numeros.index(4))  # Saída: 4
 
 ## Resumo: Lista vs Tupla
 
-| Característica   | Lista ```[]``` | Tupla ```()``` |
+| Característica   | Lista  | Tupla  |
 | **Mutabilidade** | Mutável | Imutável |
-| **Performance** | Mais lenta | Mais rápida (Otimizada) | 
 | **Tamanho em Memória** | Maior | Menor |
 | **Propósito**    | Coleções dinâmicas | Dados fixos, constantes |
 
