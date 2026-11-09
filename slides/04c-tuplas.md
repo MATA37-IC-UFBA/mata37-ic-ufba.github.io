@@ -1,6 +1,6 @@
 ---
 layout: remark
-title:
+title: Tuplas em Python
 ---
 
 {::nomarkdown}
@@ -11,7 +11,7 @@ template: inverse
 
 ---
 
-# Tuplas
+## Tuplas
 
 Estrutura de dados sequencial e imutável.
 
@@ -95,7 +95,7 @@ Você pode extrair os valores de uma tupla diretamente para variáveis. 
 
 dados_cliente = ("Ana Silva", 28, "Engenheira")
 
-### Desempacotando a tupla
+# Desempacotando a tupla
 
 nome, idade, profissao = dados_cliente
 
@@ -128,6 +128,7 @@ print(numeros.index(4))  # Saída: 4
 ## Resumo: Lista vs Tupla
 
 | Característica   | Lista  | Tupla  |
+| :---             | :---   | :---   | 
 | **Mutabilidade** | Mutável | Imutável |
 | **Tamanho em Memória** | Maior | Menor |
 | **Propósito**    | Coleções dinâmicas | Dados fixos, constantes |
