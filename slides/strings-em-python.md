@@ -55,10 +55,9 @@ Hello World
 
 ## Inicialização de Strings
 
-- Dentro do código:
-  - Aspas duplas: `"Hello World"`
-  - Aspas simples: `'Hello World'`
-  - Aspas triplas: `"""Hello World"""`
+- Aspas duplas: `"Hello World"`
+- Aspas simples: `'Hello World'`
+- Aspas triplas: `"""Hello World"""`
 
 Não há diferença entre eles.
 
@@ -68,12 +67,12 @@ Isso e evita o erro abaixo:
 ```python
 var_str = 'Flor d'agua'
 print(var_str)
-```
 
-```
 SyntaxError: invalid syntax (<string>, line 1)
 ```
+
 ---
+
 ## Inicialização de Strings
 
 Aspas triplas permitem quebra de linha:
@@ -84,7 +83,7 @@ World"""
 print(var_str)
 ```
 
-Saída:
+- Saída:
 
 ```
 Hello
@@ -95,8 +94,7 @@ World
 
 ## Inicialização de Strings
 
-A partir da entrada:
-  - Entrada
+- Entrada
 
 ```python
 frase = input()
@@ -157,9 +155,9 @@ print(s)
 
 ---
 
-## Operações básicas
 
----
+# Operações básicas
+
 
 ## Concatenar strings
 
@@ -214,7 +212,7 @@ if s.lower() == "sair":
 
 ## Comparar strings quanto à ordem
 
-Usa-se `<`, `>`, `<=` e `>=` para comparar strings quanto à ordem alfabética\*
+Usa-se `<`, `>`, `<=` e `>=` para comparar strings quanto à ordem alfabética.
 
 ```python
 print("a" <= "b")        # True
@@ -243,7 +241,9 @@ print("âncora" < "zebra")  # False
 print("asa" < "Bola")      # False
 ```
 
--Explicação: a forma como os caracteres são representados pelo sistema operacional.
+- Explicação
+
+A forma como os caracteres são representados pelo sistema operacional.
 Cada caractere é codificado por um número inteiro. 
 A correspondência entre caracteres e números foi padronizada na chamada tabela ASCII.
 
@@ -262,13 +262,13 @@ Tabela Latin-1: códigos de 0 a 255 e seus caracteres correspondentes.
 
 ---
 
-A tabela ASCII não inclui caracteres acentuados, C cedilha, dentre outros caracteres importantes fora da língua inglesa.
+- A tabela ASCII não inclui caracteres acentuados, C cedilha, dentre outros caracteres importantes fora da língua inglesa.
 
-A codificação de caracteres Latin-1 (ver ao lado) estende a tabela ASCII codificando caracteres na faixa de 128 a 255.
+- A codificação de caracteres Latin-1 estende a tabela ASCII codificando caracteres na faixa de 128 a 255.
 
-Latin-1 também é conhecida como ISO 8859-1
+- Latin-1 também é conhecida como ISO 8859-1
 
-Outra codificação popular é o UTF-8 (do padrão Unicode)
+- Outra codificação popular é o UTF-8 (do padrão Unicode)
 
 ---
 
@@ -328,14 +328,13 @@ Cada caractere é um elemento da string, com um índice específico:
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 
-Assim,
 
 ```python
 disc = "Logica de Programacao"
 print(len(disc))
 ```
 
-tem como saída 21. 
+- Saída:  21 
 
 ---
 
@@ -356,7 +355,7 @@ print(disc[7])
 print(disc[-1])
 ```
 
-Saída:
+- Saída:
 
 ```
 L
@@ -394,7 +393,7 @@ print(disc[:6])
 print(disc[10:])
 ```
 
-Saída:
+- Saída:
 
 ```
 ca de Pro
@@ -423,7 +422,7 @@ print(disc[:13:3])
 print(disc[::-1])
 ```
 
-Saída:
+- Saída:
 
 ```
 Lgc ePormco
@@ -443,7 +442,7 @@ for char in disc:
     print(char)
 ```
 
-Saída:
+- Saída:
 
 ```
 L
@@ -466,7 +465,7 @@ print("x" not in disc)
 print("World" in disc)
 ```
 
-Saída:
+- Saída:
 
 ```
 True
@@ -493,7 +492,7 @@ print(var_str.find("de"))
 print(var_str.find("b"))
 ```
 
-Saída:
+- Saída:
 
 ```
 7
@@ -509,7 +508,7 @@ print(var_str.count("o", 10))
 print(var_str.count("o", 10, 13))
 ```
 
-Saída:
+- Saída:
 
 ```
 3
@@ -535,15 +534,14 @@ s = str(2 + 2)
 
 ## Strings e listas
 
-`list` converte string para lista de caracteres:
+- `list` converte string para lista de caracteres:
 
 ```python
 s = "Alo"
 print(list(s))   # Saída: ['A', 'l', 'o']
 ```
 
-Para converter de volta, 
-use `join` para combinar uma lista de strings em uma única string:
+- `join` combina uma lista de strings em uma única string:
 
 ```python
 s = ["A", "l", "o"]
@@ -562,7 +560,7 @@ print("\n".join(s))  # Saída: (uma letra em cada linha)
 
 ## Strings e listas: split
 
-`split` cria uma lista com as palavras da string (separadas por um ou mais espaços em branco)
+- `split` cria uma lista com as palavras da string (separadas por um ou mais espaços em branco)
 
 ```python
 s = "Lógica de Programação"
@@ -582,7 +580,7 @@ print(s.split(", "))   # Saída: ['uni', 'duni', 'tê']
 
 ## Strings são imutáveis
 
-Strings em Python são imutáveis (não podem ser modificadas):
+S- trings em Python são imutáveis (não podem ser modificadas):
 
 ```python
 frase = "alô Mundo"
@@ -593,7 +591,7 @@ frase[0] = "A"
 TypeError: 'str' object does not support item assignment
 ```
 
-A solução é transformar em lista, fazer a modificação, e então converter de volta para string:
+- Solução: transformar em lista, fazer a modificação, e então converter de volta para string:
 
 ```python
 letras = list(frase)
@@ -606,7 +604,7 @@ print(frase)    # Saída: Alô Mundo
 
 ## replace
 
-`replace` cria uma cópia da string, 
+- `replace` cria uma cópia da string, 
 trocando todas as ocorrências de uma string por outra.
 Note que a string original não é modificada:
 
@@ -617,7 +615,7 @@ print(s1)
 print(s2)
 ```
 
-Saída:
+- Saída:
 
 ```
 Logica de Programacao
@@ -631,7 +629,7 @@ print(s.replace("a", "x"))
 print(s.replace("a", ""))
 ```
 
-Saída:
+- Saída:
 
 ```
 xbxcxte
@@ -675,7 +673,7 @@ var_str = "Texto %s int %d, float %.2f" % (string, 3.1415, 3.1415)
 print(var_str)
 ```
 
-Saída:
+- Saída:
 
 ```
 Texto PI: int 3, float 3.14
@@ -686,7 +684,7 @@ var_str = "Texto {} float {}, float {:.2f}".format(string, 3.1415, 3.1415)
 print(var_str)
 ```
 
-Saída:
+- Saída:
 
 ```
 Texto PI: float 3.1415, float 3.14
