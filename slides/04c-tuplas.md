@@ -17,11 +17,11 @@ Estrutura de dados sequencial e imutável.
 
 ## O que é uma Tupla?
 
-* **Definição**: Uma tupla é uma coleção de elementos ordenada e imutável.
+- Uma tupla é uma coleção de elementos ordenada e imutável.
 
-* **Sintaxe**: Utiliza parênteses () para delimitar os elementos, separados por vírgula.
+- Sintaxe: Utiliza parênteses "()"  para delimitar os elementos, separados por vírgula.
 
-* **Casos de uso**: Ideal para dados que não devem ser alterados ao longo do programa (ex: coordenadas, configurações, dados de cadastro estáveis).
+- Uso comum: dados que não devem ser alterados ao longo do programa (ex: coordenadas, configurações, dados de cadastro estáveis).
 
 ---
 
@@ -125,7 +125,7 @@ print(numeros.index(4))  # Saída: 4
 
 ---
 
-## Resumo: Lista vs Tupla
+## Resumo
 
 | Característica   | Lista  | Tupla  |
 | :---             | :---   | :---   | 
