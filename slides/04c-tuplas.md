@@ -95,7 +95,7 @@ Você pode extrair os valores de uma tupla diretamente para variáveis. 
 
 dados_cliente = ("Ana Silva", 28, "Engenheira")
 
-# Desempacotando a tupla
+### Desempacotando a tupla
 
 nome, idade, profissao = dados_cliente
 
@@ -104,7 +104,9 @@ print(idade)      # Saída: 28
 
 ```
 
-### Métodos 
+---
+
+## Métodos 
 
 Por serem imutáveis, as tuplas possuem apenas dois métodos nativos: 
 
@@ -123,17 +125,13 @@ print(numeros.index(4))  # Saída: 4
 
 ---
 
-# Resumo: Lista vs Tupla
+## Resumo: Lista vs Tupla
 
-| Característica | Lista [] | Tupla () |
-| **Mutabilidade** | 
-| Mutável | Imutável |
-| **Performance** |
-| Mais lenta | Mais rápida (Otimizada) | 
-| **Tamanho em Memória** | 
-| Maior | Menor |
-| **Propósito** |
-| Coleções dinâmicas | Dados fixos, constantes |
+| Característica   | Lista [] | Tupla () |
+| **Mutabilidade** | Mutável | Imutável |
+| **Performance* * | Mais lenta | Mais rápida (Otimizada) | 
+| **Tamanho em Memória** | Maior | Menor |
+| **Propósito**    | Coleções dinâmicas | Dados fixos, constantes |
 
 {:/}
 
