@@ -101,24 +101,26 @@ def <nome> (<0 ou mais parâmetros>):
 
 ---
 
+## Funções com mais parâmetros
+
 ```python
+# Definição da função
+
 def desenharetangulo(larg, alt, car):
     print(car*larg)
     for i in range(alt-2):
         print(car+" "*(larg-2)+car)
     print(car*larg)
 
-if __name__ == "__main__":
-    desenharetangulo(5,4,'-')
+# Chamada da função
+
+desenharetangulo(5,4,'-')
 ```
 
 - Ver [aqui](https://pythontutor.com/)
 
 ---
 
-<img src="./figs-function/Funcoes-06.png" width="100%">
-
----
 ## Funções que retornam um valor
 
 <img src="./figs-function/Funcoes-07.png" width="110%">
