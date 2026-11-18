@@ -118,13 +118,13 @@ def <nome> (<0 ou mais parâmetros>):
 
 ## Outros exemplos
 
-<img src="./figs-function/Funcoes-09.png" width="100%">
+<img src="./figs-function/Funcoes-09.png" width="130%">
 
 ---
-<img src="./figs-function/Funcoes-10.png" width="100%">
+<img src="./figs-function/Funcoes-10.png" width="130%">
 
 ---
-<img src="./figs-function/Funcoes-11.png" width="100%">
+<img src="./figs-function/Funcoes-11.png" width="130%">
 
 ---
 
