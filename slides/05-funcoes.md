@@ -117,7 +117,16 @@ def desenharetangulo(larg, alt, car):
 desenharetangulo(5,4,'-')
 ```
 
-- Ver [aqui](https://pythontutor.com/)
+- Retângulo:
+
+```
+-----
+-   -
+-   -
+-----
+```
+
+- Ver execução [aqui](https://pythontutor.com/)
 
 ---
 
