@@ -121,6 +121,21 @@ def <nome> (<0 ou mais parâmetros>):
 <img src="./figs-function/Funcoes-09.png" width="130%">
 
 ---
+
+```python
+def desenharetangulo(larg, alt, car):
+    print(car*larg)
+    for i in range(alt-2):
+        print(car+" "*(larg-2)+car)
+    print(car*larg)
+    
+if __name__ == "__main__":
+    desenharetangulo(5,4,'-')
+```
+
+- Ver [aqui](https://pythontutor.com/)
+
+---
 <img src="./figs-function/Funcoes-10.png" width="130%">
 
 ---
